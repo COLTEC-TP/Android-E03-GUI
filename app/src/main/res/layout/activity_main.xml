@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,12 +7,43 @@
     tools:context="br.ufmg.coltec.tp.e03_layout.MainActivity">
 
     <TextView
+        android:id="@+id/welcome_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Welcome to my Android GUI Exercise"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_margin="8dp"/>
 
-</android.support.constraint.ConstraintLayout>
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcome_tv"
+        android:stretchColumns="0,1"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp">
+
+        <TableRow>
+            <Button
+                android:id="@+id/splash_screen_btn"
+                android:text="Splash Screen"
+                />
+            <Button
+                android:id="@+id/weather_btn"
+                android:text="Weather"/>
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/form_btn"
+                android:text="Form"
+                />
+            <Button
+                android:id="@+id/news_btn"
+                android:text="News"/>
+        </TableRow>
+
+    </TableLayout>
+
+
+</RelativeLayout>
