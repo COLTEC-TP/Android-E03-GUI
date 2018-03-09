@@ -7,7 +7,7 @@
     android:padding="10dp"
     tools:context=".SplashScreen"
     tools:showIn="@layout/activity_splash_screen"
-    android:background="@mipmap/background">
+    android:background="@drawable/background">
 
     <ImageView
         android:id="@+id/load"
@@ -16,7 +16,7 @@
         android:layout_gravity="center_vertical"
         android:layout_marginLeft="220dp"
         android:rotation="500"
-        android:src="@mipmap/loadicon"/>
+        android:src="@drawable/loadicon"/>
 
 
 
