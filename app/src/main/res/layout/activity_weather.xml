@@ -228,6 +228,7 @@
             android:src="@drawable/ic_wi_day_sunny_overcast"
             android:tint="#383838"/>
 
+
         <TextView
             android:layout_gravity="right"
             android:text="19°"
