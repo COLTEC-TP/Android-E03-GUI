@@ -34,7 +34,7 @@
             android:text="Forecast"
             android:textColor="#383838"
             android:textSize="23dp"
-            android:layout_marginLeft="40dp"/>
+            android:layout_marginLeft="49dp"/>
 
     </TableRow>
 
@@ -43,7 +43,7 @@
         android:paddingBottom="20dp">
         <View
             android:padding="10dp"
-            android:layout_width="300dp"
+            android:layout_width="320dp"
             android:layout_marginLeft="0dp"
             android:layout_height="1dp"
             android:background="@android:color/black" />
