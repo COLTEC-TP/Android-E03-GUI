@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainActivity"
+    tools:context="com.example.italo.layouts.MainActivity"
+    tools:layout_editor_absoluteX="141dp"
+    tools:layout_editor_absoluteY="16dp"
+    >
+
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="50dp"
+        android:text="Make your Choice"
+        android:textColor="#6c6c6c"
+        android:textSize="35dp" />
+
+
+    <Button
+        android:id="@+id/noticia"
+        android:layout_width="124dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/tempo"
+        android:layout_marginTop="250dp"
+        android:text="Notícia" />
+
+
+    <Button
+        android:id="@+id/tempo"
+        android:layout_width="124dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/noticia"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dip"
+        android:text="Tempo" />
+
+    <Button
+        android:id="@+id/formulario"
+        android:layout_width="124dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tempo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dip"
+        android:text="Formulário" />
+
+    <Button
+        android:id="@+id/splashScreen"
+        android:layout_width="124dip"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/formulario"
+        android:layout_below="@+id/formulario"
+        android:layout_marginTop="29dp"
+        android:text="Splash Screen" />
+
+</RelativeLayout>
