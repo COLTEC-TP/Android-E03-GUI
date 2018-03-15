@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.ufmg.coltec.tp.e03_layout.NoticiasActivity"
+    android:layout_margin="5dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Perseguição Policial"
+        android:textSize="40dp"
+        android:textColor="#A00000"
+        android:fontFamily="serif"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/lbl_titulo"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Suspeito é atropelado pelo próprio carro ao fugir da polícia"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_below="@id/lbl_titulo"
+        android:id="@+id/lbl_subtitulo"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bernardo G. Nunes"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:layout_below="@id/lbl_subtitulo"
+        android:layout_alignParentRight="true"
+        android:id="@+id/lbl_autor"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        android:layout_marginTop="10dp"
+        android:text="    Um americano que havia bebido além da conta foi atropelado pelo próprio carro quando tentava fugir da polícia. Isaac C. Bonsu, de 30 anos, foi preso depois do incidente.
+\n    Segundo a polícia docondado de Fairfax, na Virgínia, a fuga desastrada ocorreu na madrugada do último domingo (4). Os agentes tentaram parar o carro que estava com um equipamento irregular. Bonsu, no entanto, estava bêbado e acabou fugindo
+\n    Ele dirigiu por um curto trecho até que percebeu que estava em um beco sem saída. Imediatamente, Bonsu saiu do carro para tentar fugir a pé. Mas o motorista se esqueceu de puxar o freio de mão. Quando passou na frente do veículo,  foi atropelado."
+        android:layout_below="@id/lbl_autor"
+        android:id="@+id/lbl_corpo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="08/03/20180 7h39"
+        android:textSize="16dp"
+        android:textColor="#112EFF"
+        android:layout_below="@id/lbl_corpo"
+        android:layout_alignParentRight="true"
+        android:id="@+id/lbl_horario"
+        />
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/lbl_horario"
+        android:src="@mipmap/autor"
+        android:id="@+id/img"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contato: Bernardo Nunes -> nunesbernardo2000@gmail.com"
+        android:textColor="#A00000"
+        android:textSize="16dp"
+        android:layout_toRightOf="@id/img"
+        android:layout_alignTop="@id/img"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"/>
+
+
+
+</RelativeLayout>
