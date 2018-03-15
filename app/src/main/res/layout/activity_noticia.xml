@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Construção de viadutos em Araxá"
+        android:textSize="25dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deverá haver uma discussão com os moradores."
+        android:layout_below="@+id/title"
+        android:textSize="17dp"/>
+    <TextView
+        android:id="@+id/autor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub"
+        android:layout_alignRight="@+id/sub"
+        android:text="MGTV - g1.globo.com"
+        android:textColor="#b3000000"
+        android:textStyle="italic"
+        />
+    <TextView
+        android:id="@+id/noticia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/autor"
+        android:textColor="#000"
+        android:text="Um projeto para a construção de dois viadutos em Araxá, no Alto Paranaíba, tem preocupado moradores e comerciantes. Em outubro de 2017, 11 casas já haviam sido desapropriadas em um dos pontos de obras, conforme mostrou o G1 na época, mas vizinhos dos empreendimentos temem os transtornos que podem ser gerados quando as máquinas chegarem.
+
+Conforme anunciado pela Prefeitura, os viadutos vão passar pela Rua Uberaba com a Avenida João Paulo II e pela Avenida Amazonas com Vereador João Sena. Apenas o viaduto da Avenida João Paulo II estava orçado em cerca de R$ 7,5 milhões em julho do ano passado, com a expectativa de que fossem gastos até R$ 2,5 milhões em desapropriações e tombamentos."/>
+
+    <TextView
+        android:id="@+id/horario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/noticia"
+        android:layout_alignRight="@+id/noticia"
+        android:text="Postado 8:37"/>
+    <ImageView
+        android:id="@+id/imagem"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:src="@drawable/mgtv"
+        android:layout_below="@+id/horario"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Autor: MGTV - G1"
+        android:layout_above="@+id/email"
+        android:layout_alignLeft="@+id/email"
+        android:textColor="#000"
+        />
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-mail: mail@globo.com"
+        android:layout_toRightOf="@+id/imagem"
+        android:layout_alignBottom="@+id/imagem"
+        android:textColor="#000" />
+
+</RelativeLayout>
