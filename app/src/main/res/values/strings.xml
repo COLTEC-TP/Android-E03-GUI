@@ -1,3 +1,20 @@
 <resources>
-    <string name="app_name">E03 - Layout</string>
+    <string name="name">E03 - Layout</string>
+    <string name="edit_nome">Nome</string>
+    <string name="edit_email">Email</string>
+    <string name="lbl_comentario">Comentário:</string>
+    <string name="btn_submeter">Submeter</string>
+    <string name="monday">Segunda</string>
+    <string name="tuesday">Terça</string>
+    <string name="wednesday">Quarta</string>
+    <string name="thursday">Quinta</string>
+    <string name="friday">Sexta</string>
+    <string name="saturday">Sábado</string>
+    <string name="sunday">Domingo</string>
+    <string name="city">Belo Horizonte</string>
+    <string name="form">Formulario</string>
+    <string name="news">Notícia</string>
+    <string name="weather">Previsão do tempo</string>
+    <string name="splashscreen">SplashScreen</string>
+    <string name="titulo">Explorando os Layouts</string>
 </resources>
