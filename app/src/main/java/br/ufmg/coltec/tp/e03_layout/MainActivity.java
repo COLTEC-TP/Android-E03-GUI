@@ -14,7 +14,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         final Intent splashScreen = new Intent(MainActivity.this, SplashScreen.class);
-        //startActivity(splashScreen);
+        startActivity(splashScreen);
 
         final Intent noticia = new Intent(MainActivity.this, Noticia.class);
         final Intent tempo = new Intent(MainActivity.this, PrevisaoDoTempo.class);
