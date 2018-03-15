@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/prevtempo"
+    tools:context="br.ufmg.coltec.tp.e03_layout.previsaoActivity">
+
+
+
+    <TableRow android:minHeight="70px">
+        <TextView android:text="Dia" android:textColor="#33CCFF" android:textSize="20dp"  android:textStyle="bold"/>
+        <TextView android:text="Tempo" android:textColor="#33CCFF" android:textSize="20dp" android:layout_marginLeft="60dp" android:textStyle="bold"/>
+        <TextView android:text="Mín/Máx" android:textColor="#33CCFF" android:textSize="20dp"  android:layout_marginLeft="60dp" android:textStyle="bold"/>
+    </TableRow>
+
+
+
+
+    <TableRow android:minHeight="70px">
+        <TextView android:text="Segunda" android:textColor="#FF0000" android:textSize="20dp" android:layout_marginTop="40dp"/>
+        <ImageView android:layout_height="90dp" android:layout_width="90dp" android:src="@drawable/chuva" android:layout_marginLeft="60dp"/>
+        <TextView android:text="20Cº/30Cº" android:textColor="#FF0000" android:textSize="20dp" android:layout_marginTop="40dp" android:layout_marginLeft="60dp"/>
+    </TableRow>
+
+
+
+
+
+
+
+    <TableRow android:minHeight="70px">
+        <TextView android:text="Terça" android:textColor="#FF0000" android:textSize="20dp" android:layout_marginTop="40dp"/>
+        <ImageView android:layout_height="90dp" android:layout_width="90dp" android:src="@drawable/chuva" android:layout_marginLeft="60dp"/>
+        <TextView android:text="15Cº/27Cº" android:textColor="#FF0000" android:textSize="20dp" android:layout_marginTop="40dp" android:layout_marginLeft="60dp"/>
+
+    </TableRow>
+
+
+
+
+
+    <TableRow android:minHeight="70px">
+        <TextView android:text="Quarta" android:textColor="#FF0000" android:textSize="20dp" android:layout_marginTop="40dp"/>
+        <ImageView android:layout_height="90dp" android:layout_width="90dp" android:src="@drawable/sol" android:layout_marginLeft="60dp"/>
+        <TextView android:text="22Cº/31Cº" android:textColor="#FF0000" android:textSize="20dp" android:layout_marginTop="40dp" android:layout_marginLeft="60dp"/>
+
+    </TableRow>
+
+
+
+    <TableRow android:minHeight="70px">
+    <TextView android:text="Quinta" android:textColor="#FF0000" android:textSize="20dp" android:layout_marginTop="40dp"/>
+        <ImageView android:layout_height="90dp" android:layout_width="90dp" android:src="@drawable/sol" android:layout_marginLeft="60dp"/>
+        <TextView android:text="23Cº/32Cº" android:textColor="#FF0000" android:textSize="20dp" android:layout_marginTop="40dp" android:layout_marginLeft="60dp"/>
+
+    </TableRow>
+
+
+
+
+
+    <TableRow android:minHeight="70px">
+        <TextView android:text="Sexta" android:textColor="#FF0000" android:textSize="20dp" android:layout_marginTop="40dp"/>
+        <ImageView android:layout_height="90dp" android:layout_width="90dp" android:src="@drawable/chuva" android:layout_marginLeft="60dp"/>
+        <TextView android:text="10Cº/22Cº" android:textColor="#FF0000" android:textSize="20dp" android:layout_marginTop="40dp" android:layout_marginLeft="60dp"/>
+
+    </TableRow>
+
+
+</TableLayout>
