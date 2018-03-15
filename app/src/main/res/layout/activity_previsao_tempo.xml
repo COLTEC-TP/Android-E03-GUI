@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.ufmg.coltec.tp.e03_layout.PrevisaoTempoActivity"
+    android:stretchColumns="2"
+    android:background="#aaa">
+
+    <TextView
+        android:textSize="40dp"
+        android:layout_margin="10dp"
+        android:background="#3fff"
+        android:text="Belo Horizonte"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:text="Previsão da semana"
+        android:paddingLeft="20dp"
+        android:textSize="16dp"/>
+
+    <TableRow android:padding="5dp" android:layout_height="40dp">
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Hoje"
+            android:layout_gravity="center_vertical"/>
+        <ImageView
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:src="@drawable/partly_cloudy"/>
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:text="min:30°   max:40°"/>
+    </TableRow>
+
+    <TableRow android:padding="5dp" android:layout_height="40dp">
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Sex"
+            android:layout_gravity="center_vertical"/>
+        <ImageView
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:src="@drawable/thunderstorms"/>
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:text="min:20°   max:30°"/>
+    </TableRow>
+
+    <TableRow android:padding="5dp" android:layout_height="40dp">
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Sab"
+            android:layout_gravity="center_vertical"/>
+        <ImageView
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:src="@drawable/thunderstorms"/>
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:text="min:20°   max:25°"/>
+    </TableRow>
+
+    <TableRow android:padding="5dp" android:layout_height="40dp">
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Dom"
+            android:layout_gravity="center_vertical"/>
+        <ImageView
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:src="@drawable/rain_s_cloudy"/>
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:text="min:25°   max:30°"/>
+    </TableRow>
+
+    <TableRow android:padding="5dp" android:layout_height="40dp">
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Seg"
+            android:layout_gravity="center_vertical"/>
+        <ImageView
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:src="@drawable/thunderstorms"/>
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:text="min:20°   max:22°"/>
+    </TableRow>
+
+    <TableRow android:padding="5dp" android:layout_height="40dp">
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Ter"
+            android:layout_gravity="center_vertical"/>
+        <ImageView
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:src="@drawable/thunderstorms"/>
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:text="min:15°   max:22°"/>
+    </TableRow>
+
+    <TableRow android:padding="5dp" android:layout_height="40dp">
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Qua"
+            android:layout_gravity="center_vertical"/>
+        <ImageView
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:src="@drawable/thunderstorms"/>
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:text="min:18°   max:20°"/>
+    </TableRow>
+
+</TableLayout>
