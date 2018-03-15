@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,10 +9,41 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="E03 empacotado"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:layout_margin="10dp"
+        android:id="@+id/titulo"/>
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titulo"
+        android:layout_margin="20dp"
+        android:text="SplashScreen"
+        android:id="@+id/Botaos"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Botaos"
+        android:layout_margin="20dp"
+        android:text="Notícias"
+        android:id="@+id/Botaon"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Botaon"
+        android:layout_margin="20dp"
+        android:text="Previsão do tempo"
+        android:id="@+id/Botaop"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Botaop"
+        android:layout_margin="20dp"
+        android:text="Formulário"
+        android:id="@+id/Botaof"/>
+
+
+
+</RelativeLayout>
