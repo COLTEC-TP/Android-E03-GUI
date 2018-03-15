@@ -16,6 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".SplashScreen" />
+        <activity android:name=".Weather" />
+        <activity android:name=".Form" />
+        <activity android:name=".News"></activity>
     </application>
 
 </manifest>

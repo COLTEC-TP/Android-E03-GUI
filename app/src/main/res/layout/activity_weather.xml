@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    android:background="@drawable/background1"
+    tools:context="br.ufmg.coltec.tp.e03_layout.Weather">
+
+    <TableRow android:gravity="center">
+        <TextView
+            android:textAlignment="center"
+            android:layout_marginTop="8dp"
+            android:textColor="#383838"
+            android:text="Moscow"
+            android:textStyle="bold"
+            android:textSize="25dp"/>
+    </TableRow>
+
+    <TableRow android:gravity="center">
+        <TextView
+            android:textAlignment="center"
+            android:text="16:59 pm"
+            android:textColor="#787878"
+            android:textStyle="italic"
+            android:textSize="15dp"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="30dp"
+            android:text="Forecast"
+            android:textColor="#383838"
+            android:textSize="23dp"
+            android:layout_marginLeft="40dp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:gravity="center"
+        android:paddingBottom="20dp">
+        <View
+            android:padding="10dp"
+            android:layout_width="300dp"
+            android:layout_marginLeft="0dp"
+            android:layout_height="1dp"
+            android:background="@android:color/black" />
+    </TableRow>
+
+    <TableRow
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/monday"
+            android:layout_width="30dp"
+            android:maxWidth="50dp"
+            android:layout_marginLeft="49dp"
+            android:layout_marginRight="50dp"
+            android:text="Monday"
+            android:textColor="#383838"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-110dp"
+            android:layout_marginRight="35dp"
+            android:src="@drawable/ic_wi_rain"
+            android:tint="#383838"/>
+
+        <TextView
+            android:layout_gravity="right"
+            android:text="15°"
+            android:layout_marginRight="30dp"
+            android:textColor="#383838"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:text="20°"
+            android:textColor="#383838"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+    </TableRow>
+
+    <TableRow
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/thurday"
+            android:layout_width="30dp"
+            android:maxWidth="50dp"
+            android:layout_marginLeft="49dp"
+            android:layout_marginRight="50dp"
+            android:text="Thursday"
+            android:textColor="#383838"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-110dp"
+            android:layout_marginRight="35dp"
+            android:src="@drawable/ic_wi_day_cloudy"
+            android:tint="#383838"/>
+
+        <TextView
+            android:layout_gravity="right"
+            android:text="17°"
+            android:layout_marginRight="30dp"
+            android:textColor="#383838"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:text="21°"
+            android:textColor="#383838"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+    </TableRow>
+
+    <TableRow
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/wednesday"
+            android:layout_width="30dp"
+            android:maxWidth="50dp"
+            android:layout_marginLeft="49dp"
+            android:layout_marginRight="50dp"
+            android:text="Wednesday"
+            android:textColor="#383838"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-110dp"
+            android:layout_marginRight="35dp"
+            android:src="@drawable/ic_wi_rain"
+            android:tint="#383838"/>
+
+        <TextView
+            android:layout_gravity="right"
+            android:text="13°"
+            android:layout_marginRight="30dp"
+            android:textColor="#383838"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:text="18°"
+            android:textColor="#383838"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+    </TableRow>
+
+    <TableRow
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/tuesday"
+            android:layout_width="30dp"
+            android:maxWidth="50dp"
+            android:layout_marginLeft="49dp"
+            android:layout_marginRight="50dp"
+            android:text="Tuesday"
+            android:textColor="#383838"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-110dp"
+            android:layout_marginRight="35dp"
+            android:src="@drawable/ic_wi_night_sleet_storm"
+            android:tint="#383838"/>
+
+        <TextView
+            android:layout_gravity="right"
+            android:text="15°"
+            android:layout_marginRight="30dp"
+            android:textColor="#383838"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:text="19°"
+            android:textColor="#383838"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+    </TableRow>
+
+    <TableRow
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/friday"
+            android:layout_width="30dp"
+            android:maxWidth="50dp"
+            android:layout_marginLeft="49dp"
+            android:layout_marginRight="50dp"
+            android:text="Friday"
+            android:textColor="#383838"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-110dp"
+            android:layout_marginRight="35dp"
+            android:src="@drawable/ic_wi_day_sunny_overcast"
+            android:tint="#383838"/>
+
+
+        <TextView
+            android:layout_gravity="right"
+            android:text="19°"
+            android:layout_marginRight="30dp"
+            android:textColor="#383838"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:text="22°"
+            android:textColor="#383838"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+    </TableRow>
+
+
+
+
+</TableLayout>
