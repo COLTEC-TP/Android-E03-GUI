@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30px"
+    >
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.ufmg.coltec.tp.e03_layout.RelativeActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ttttt"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Vovô realiza sonho!"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/subtitulo"
+        android:layout_below="@id/ttttt"
+        android:layout_centerHorizontal="true"
+        android:text="Aos 90 anos: começa a faculdade de Arquitetura"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/autor"
+        android:layout_below="@id/subtitulo"
+        android:layout_alignParentRight="true"
+        android:text="Tiago Leifert"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/corpo"
+        android:layout_below="@+id/autor"
+        android:layout_alignParentStart="true"
+        android:text="É possível realizar um sonho, mesmo que seja aos 90 anos de idade. É o caso de Carlos Augusto Manço.
+
+Ele é o mais novo aluno do curso de Arquitetura e Urbanismo do Centro Universitário Barão de Mauá, em Ribeirão Preto, interior de São Paulo.
+
+Carlos sempre teve o desejo de se graduar em arquitetura, mas com os anos a vida foi tomando outros rumos.
+Profissionalmente, ele trabalhou no Daerp e na Universidade de São Paulo (USP), até se aposentar.
+
+Ao conviver com engenheiros e arquitetos durante o seu tempo na USP, Carlos só viu aumentar seu desejo de participar desse mundo.
+
+Ele sempre quis ter a graduação em Arquitetura, e neste ano o sonho finalmente se tornou realidade.
+
+“O Carlos é um aluno bastante dedicado e interessado durante as aulas. Temos muita gratidão por ele ter escolhido a Barão de Mauá”, afirma a coordenadora do curso, Flavia Olaia.
+
+A partir de agora, ele poderá aprender Arquitetura ao lado de estudantes e professores.
+
+“Fui recebido muito bem por todos os colegas de classe e estou muito empolgado com o que estou aprendendo. Tenho vontade de fazer tudo!”, diz Carlos."
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/horario"
+        android:layout_below="@id/corpo"
+        android:layout_alignParentRight="true"
+        android:text="Quarta Feira, 7 de março de 2018, 12:17h"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/tiagoleifert"
+        android:id="@+id/imagem"
+        android:layout_below="@id/corpo"
+        android:layout_alignParentLeft="true"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/contato"
+        android:layout_below="@id/imagem"
+        android:layout_alignParentRight="true"
+        android:text="E-mail: titileifert@gmail.com"
+        />
+
+</RelativeLayout>
+</ScrollView>

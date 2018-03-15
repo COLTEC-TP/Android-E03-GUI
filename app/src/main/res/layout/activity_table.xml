@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.ufmg.coltec.tp.e03_layout.TableActivity"
+    android:stretchColumns="1"
+    >
+
+    <TableRow>
+        <TextView android:text="Dia"/>
+        <TextView android:text="Visualmente"/>
+        <TextView android:text="Mínimo"/>
+        <TextView android:text="Máximo"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="Domingo"/>
+        <ImageView
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:src="@mipmap/garoa" />
+        <TextView android:text="15°"/>
+        <TextView android:text="21°"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="Segunda"/>
+        <ImageView
+            android:layout_width="237dp"
+            android:layout_height="match_parent"
+            android:src="@mipmap/chuva" />
+        <TextView android:text="12°"/>
+        <TextView android:text="16°"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="Terça"/>
+        <ImageView
+            android:layout_width="206dp"
+            android:layout_height="match_parent"
+            android:src="@mipmap/parcialmentequente" />
+        <TextView android:text="21°"/>
+        <TextView android:text="32°"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="Quarta"/>
+        <ImageView
+            android:layout_width="177dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/ceulimpo" />
+        <TextView android:text="23°"/>
+        <TextView android:text="31°"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="Quinta"/>
+        <ImageView
+            android:layout_width="235dp"
+            android:layout_height="match_parent"
+            android:src="@mipmap/quente" />
+        <TextView android:text="22°"/>
+        <TextView android:text="33°"/>
+    </TableRow>
+
+</TableLayout>
