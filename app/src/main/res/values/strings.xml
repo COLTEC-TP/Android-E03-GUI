@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">E03 - Layout</string>
-    <string name="titulo_noticia">Palmeiras e Ponte Preta ficam no empate em jogo fraco pelo Paulistão</string>
-    <string name="subtitulo">Condição ruim do gramado prejudica as duas equipes em 0 a 0 no Moisés Lucarelli, em Campinas</string>
-    <string name="autor">Dani Arruda</string>
-    <string name="corpo">Ponte Preta e Palmeiras empataram por 0 a 0, neste domingo, no estádio
+    <string name="titulo_noticia" translatable="false">Palmeiras e Ponte Preta ficam no empate em jogo fraco pelo Paulistão</string>
+    <string name="subtitulo" translatable="false">Condição ruim do gramado prejudica as duas equipes em 0 a 0 no Moisés Lucarelli, em Campinas</string>
+    <string name="autor" translatable="false">Dani Arruda</string>
+    <string name="corpo" translatable="false">Ponte Preta e Palmeiras empataram por 0 a 0, neste domingo, no estádio
         Moisés Lucarelli, em Campinas. Foi o segundo empate consecutivo do alviverde, que mantém a
         invencibilidade no Paulistão, chega aos 20 pontos na liderança do Grupo C,
         e com a melhor campanha na classificação geral.
@@ -12,6 +12,21 @@
         10 pontos, mas a Macaca soma uma vitória a menos: 3 a 2. Na próxima rodada, o Palmeiras faz
         o clássico contra o Corinthians, sábado, às 17h, na Arena alvinegra. No domingo, às 19h30,
         a Ponte Preta encara o Mirassol, fora de casa.  </string>
-    <string name="hora_noticia">18 Fevereiro 2018 | 21h39</string>
-    <string name="site">Estadão | www.estadao.com.br/</string>
+    <string name="hora_noticia" translatable="false">18 Fevereiro 2018 | 21h39</string>
+    <string name="site" translatable="false">Estadão | www.estadao.com.br/</string>
+
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+
+    <string name="name">Name</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="comments">Comments</string>
+    <string name="submit">Submit</string>
+
+
 </resources>

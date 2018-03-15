@@ -29,17 +29,17 @@ public class FormActivity extends Activity {
             @Override
             public void onClick(View view) {
                 alertBuilder.setIcon(R.drawable.ic_check_black_24dp);
-                alertBuilder.setTitle("Confirmação!");
-                alertBuilder.setMessage("Tem certeza que quer continuar?.");
+                alertBuilder.setTitle("Confirmação");
+                alertBuilder.setMessage("Tem certeza que quer continuar?");
 
-                alertBuilder.setPositiveButton("Sim!", new DialogInterface.OnClickListener() {
+                alertBuilder.setPositiveButton("Sim", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         Toast.makeText(getBaseContext(), "Obrigado pelo comentário!", Toast.LENGTH_LONG).show();
                     }
                 });
 
-                alertBuilder.setPositiveButton("Cancelar", new DialogInterface.OnClickListener() {
+                alertBuilder.setNegativeButton("Cancelar", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         Toast.makeText(getBaseContext(), "Comentário Cancelado!", Toast.LENGTH_LONG).show();

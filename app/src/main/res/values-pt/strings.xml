@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">E03 - Layout</string>
+    <string name="monday">Segunda-feira</string>
+    <string name="tuesday">Terça-feira</string>
+    <string name="wednesday">Quarta-feira</string>
+    <string name="thursday">Quinta-feira</string>
+    <string name="friday">Sexta-feira</string>
+    <string name="saturday">Sábado</string>
+    <string name="sunday">Domingo</string>
+    <string name="name">Nome</string>
+    <string name="comments">Comentário</string>
+    <string name="submit">Enviar</string>
+</resources>
