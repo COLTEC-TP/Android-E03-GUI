@@ -34,7 +34,7 @@ public class MainActivity extends Activity {
                 startActivity(tempo);
             }
         });
-        Button button3 = findViewById(R.id.btnFormulario);
+        Button button3 = findViewById(R.id.btnFormulari0);
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
