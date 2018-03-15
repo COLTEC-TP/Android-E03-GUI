@@ -15,7 +15,7 @@
         android:layout_marginBottom="20dp"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:hint="Name:"
+        android:hint="@string/nameForm"
         android:textSize="20dp"
         android:textStyle="italic"/>
     <EditText
@@ -23,7 +23,7 @@
         android:layout_marginBottom="20dp"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:hint="Email: "
+        android:hint="@string/emailForm"
         android:textSize="20dp"
         android:textStyle="italic"/>
 
@@ -32,7 +32,7 @@
         android:layout_marginBottom="20dp"
         android:layout_width="300dp"
         android:layout_height="100dp"
-        android:hint="Comments: "
+        android:hint="@string/commentsForm"
         android:textSize="20dp"
         android:textStyle="italic"/>
 
@@ -50,7 +50,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Submit" />
+        android:text="@string/submitForm" />
 
 
 </LinearLayout>

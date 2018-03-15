@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">E03 - Layout</string>
+    <string name="city">Moscou</string>
+    <string name="forecast">Previsão</string>
+    <string name="monday">Segunda</string>
+    <string name="thursday">Terça</string>
+    <string name="wednesday">Quarta</string>
+    <string name="tuesday">Quinta</string>
+    <string name="friday">Sexta</string>
+
+    <string name="nameForm">Nome:</string>
+    <string name="emailForm">E-mail:</string>
+    <string name="commentsForm">Comentários:</string>
+    <string name="submitForm">Enviar</string>
+
+    <string name="alertTitle">Confirmação</string>
+    <string name="alertMessage">Tem certeza de que deseja enviar?</string>
+    <string name="positiveButton">Sua resposta foi enviada</string>
+    <string name="negativeButton">Preencha o formulário</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+
+
+</resources>
