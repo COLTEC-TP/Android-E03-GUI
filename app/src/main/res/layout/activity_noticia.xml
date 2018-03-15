@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.ufmg.coltec.tp.e03_layout.noticiaActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Meteoro cai"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:id="@+id/titulo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Moradores são acordados de madrugada com o barulho da queda"
+        android:layout_below="@+id/titulo"
+        android:paddingLeft="10dp"
+        android:paddingRight="30dp"
+        android:id="@+id/subtitulo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="por Fulano"
+        android:layout_below="@+id/subtitulo"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10dp"
+        android:id="@+id/autor"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa error qui sunt omnis magnam laborum quos quas itaque. Vitae commodi accusamus qui rerum tempora minima praesentium, cumque officia repellat ipsam!"
+        android:layout_below="@+id/autor"
+        android:layout_margin="10dp"
+        android:id="@+id/corpo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="31 de abril - 12:00"
+        android:layout_below="@+id/corpo"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        android:id="@+id/hora"/>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:src="@drawable/autor"
+        android:layout_below="@+id/hora"
+        android:id="@+id/autorFoto"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fulano - fulano@email.com"
+        android:layout_toRightOf="@+id/autorFoto"
+        android:layout_alignTop="@id/autorFoto"
+        android:paddingLeft="10dp"/>
+
+</RelativeLayout>
