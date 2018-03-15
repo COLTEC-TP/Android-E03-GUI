@@ -1,0 +1,20 @@
+<resources>
+    <string name="name">E03 - Layout</string>
+    <string name="edit_nome">Name</string>
+    <string name="edit_email">Email</string>
+    <string name="lbl_comentario">Comment:</string>
+    <string name="btn_submeter">Submit</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="city">Belo Horizonte</string>
+    <string name="form">Form</string>
+    <string name="news">News</string>
+    <string name="weather">Weather</string>
+    <string name="splashscreen">SplashScreen</string>
+    <string name="titulo">Exploring Layouts</string>
+</resources>

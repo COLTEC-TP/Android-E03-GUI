@@ -9,23 +9,24 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Explorando os Layouts"
+        android:text="@string/titulo"
         android:textSize="30dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"/>
+        android:layout_marginTop="30dp"
+        android:id="@+id/titulo"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SplashScreen"
+        android:text="@string/splashscreen"
         android:layout_centerVertical="true"
-        android:layout_marginLeft="30dp"
+        android:layout_alignLeft="@id/titulo"
         android:id="@+id/btn_splash"
         />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Formulário"
+        android:text="@string/form"
         android:layout_below="@id/btn_splash"
         android:layout_alignLeft="@id/btn_splash"
         android:layout_alignRight="@id/btn_splash"
@@ -35,7 +36,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Previsão do Tempo"
+        android:text="@string/weather"
         android:layout_centerVertical="true"
         android:layout_toRightOf="@id/btn_splash"
         android:layout_marginLeft="30dp"
@@ -44,7 +45,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Notícia"
+        android:text="@string/news"
         android:layout_below="@id/btn_previsao"
         android:layout_alignLeft="@id/btn_previsao"
         android:layout_alignRight="@id/btn_previsao"
