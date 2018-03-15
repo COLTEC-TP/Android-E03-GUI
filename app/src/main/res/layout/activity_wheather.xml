@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    tools:context="br.ufmg.coltec.tp.e03_layout.wheather">
+
+    <TableRow android:layout_height="20dp">
+
+        <TextView
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Belo Horizonte"
+            android:textSize="25dp" />
+        <ImageView
+            android:layout_marginTop="25dp"
+            android:layout_width="177dp"
+            android:layout_height="30dp"
+            android:src="@drawable/cloudy" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:text="Min: 11º"
+
+        />
+        <TextView
+            android:layout_width="10dp"
+
+            android:layout_height="wrap_content"
+            android:text="Max: 19º"
+
+            />
+    </TableRow>
+    <TableRow android:layout_height="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Curitiba"
+            android:textSize="25dp" />
+        <ImageView
+            android:layout_width="177dp"
+            android:layout_height="30dp"
+            android:src="@drawable/nublado" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:text="Min: 20º"
+
+            />
+        <TextView
+            android:layout_width="10dp"
+
+            android:layout_height="wrap_content"
+            android:text="Max: 22º"
+
+            />
+    </TableRow>
+    <TableRow android:layout_height="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Brasília"
+            android:textSize="25dp" />
+        <ImageView
+            android:layout_width="177dp"
+            android:layout_height="30dp"
+            android:src="@drawable/sunny" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="29dp"
+            android:layout_height="wrap_content"
+            android:text="Min: 28º"
+
+            />
+        <TextView
+            android:layout_width="10dp"
+
+            android:layout_height="wrap_content"
+            android:text="Max: 32º"
+
+            />
+    </TableRow>
+    <TableRow android:layout_height="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="São Paulo"
+            android:textSize="25dp" />
+        <ImageView
+            android:layout_width="177dp"
+            android:layout_height="30dp"
+            android:src="@drawable/rain" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:text="Min: 11º"
+
+            />
+        <TextView
+            android:layout_width="10dp"
+
+            android:layout_height="wrap_content"
+            android:text="Max: 14º"
+
+            />
+    </TableRow>
+    <TableRow android:layout_height="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rio de Janeiro"
+            android:textSize="25dp" />
+        <ImageView
+            android:layout_width="177dp"
+            android:layout_height="30dp"
+            android:src="@drawable/sunny" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:text="Min: 20º"
+
+            />
+        <TextView
+            android:layout_width="10dp"
+
+            android:layout_height="wrap_content"
+            android:text="Max: 25º"
+
+            />
+    </TableRow>
+
+</TableLayout>
