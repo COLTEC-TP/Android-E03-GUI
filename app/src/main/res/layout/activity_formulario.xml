@@ -11,22 +11,22 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Nome" />
+        android:hint="@string/nome" />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="E-mail" />
+        android:hint="@string/email" />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:maxLines="5"
-        android:hint="Comentário" />
+        android:hint="@string/comentario" />
 
     <TextView
         android:id="@+id/nota"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nota: "
+        android:text="@string/nota"
         android:textSize="35px"
         android:gravity="center"/>
     <RatingBar
@@ -42,7 +42,7 @@
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Enviar"
+        android:text="@string/enviar"
         android:onClick="submit"/>
 
 </LinearLayout>

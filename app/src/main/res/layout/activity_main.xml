@@ -13,18 +13,18 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:text="Noticia" />
+        android:text="@string/noticia" />
     <Button
         android:id="@+id/btnTempo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btnNoticia"
-        android:text="Tempo" />
+        android:text="@string/tempo" />
     <Button
-        android:id="@+id/btnFormulario"
+        android:id="@+id/btnFormulari0"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btnTempo"
-        android:text="Formulario" />
+        android:text="@string/formulario" />
 
 </RelativeLayout>
