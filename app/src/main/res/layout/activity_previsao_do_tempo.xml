@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30px"
+    tools:context="br.ufmg.coltec.tp.e03_layout.PrevisaoDoTempo">
+    <TextView
+        android:text="@string/titulo_previsao"
+        android:layout_marginBottom="30px"
+        android:textSize="20dp"/>
+
+    <TableRow android:minHeight="70px">
+        <TextView android:text="@string/dia" android:width="300px"  android:textStyle="bold" android:textAlignment="center"/>
+        <TextView android:text="@string/previsao" android:width="200px" android:textStyle="bold" android:textAlignment="center"/>
+        <TextView android:text="@string/max" android:width="200px" android:textStyle="bold" android:textAlignment="center"/>
+        <TextView android:text="@string/min" android:width="200px" android:textStyle="bold" android:textAlignment="center"/>
+    </TableRow>
+
+    <TableRow android:minHeight="50px">
+        <TextView android:text="@string/segunda"  android:textAlignment="center" android:layout_gravity="center_vertical"/>
+        <ImageView android:src="@drawable/weather_sunny" android:layout_height="100px"/>
+        <TextView android:text="26" android:width="200px" android:textAlignment="center" android:layout_gravity="center_vertical"/>
+        <TextView android:text="17" android:width="200px" android:textAlignment="center" android:layout_gravity="center_vertical"/>
+    </TableRow>
+    <TableRow android:minHeight="50px">
+        <TextView android:text="@string/terca" android:textAlignment="center" android:layout_gravity="center_vertical"/>
+        <ImageView android:src="@drawable/weather_rainning2" android:layout_height="100px"/>
+        <TextView android:text="24" android:width="200px" android:textAlignment="center" android:layout_gravity="center_vertical"/>
+        <TextView android:text="17" android:width="200px" android:textAlignment="center" android:layout_gravity="center_vertical"/>
+    </TableRow>
+    <TableRow android:minHeight="50px">
+        <TextView android:text="@string/quarta" android:textAlignment="center" android:layout_gravity="center_vertical"/>
+        <ImageView android:src="@drawable/weather_rainning" android:layout_height="100px"/>
+        <TextView android:text="25" android:width="200px" android:textAlignment="center" android:layout_gravity="center_vertical"/>
+        <TextView android:text="17" android:width="200px" android:textAlignment="center" android:layout_gravity="center_vertical"/>
+    </TableRow>
+    <TableRow android:minHeight="50px">
+        <TextView android:text="@string/quinta" android:textAlignment="center" android:layout_gravity="center_vertical"/>
+        <ImageView android:src="@drawable/weather_rainning2" android:layout_height="100px"/>
+        <TextView android:text="25" android:width="200px" android:textAlignment="center" android:layout_gravity="center_vertical"/>
+        <TextView android:text="17" android:width="200px" android:textAlignment="center" android:layout_gravity="center_vertical"/>
+    </TableRow>
+    <TableRow android:minHeight="50px">
+        <TextView android:text="@string/sexta" android:textAlignment="center" android:layout_gravity="center_vertical"/>
+        <ImageView android:src="@drawable/weather_sunny" android:layout_height="100px"/>
+        <TextView android:text="27" android:width="200px" android:textAlignment="center" android:layout_gravity="center_vertical"/>
+        <TextView android:text="16" android:width="200px" android:textAlignment="center" android:layout_gravity="center_vertical"/>
+    </TableRow>
+    <TableRow android:minHeight="50px">
+        <TextView android:text="@string/sabado" android:textAlignment="center" android:layout_gravity="center_vertical"/>
+        <ImageView android:src="@drawable/weather_rainning" android:layout_height="100px"/>
+        <TextView android:text="26" android:width="200px" android:textAlignment="center" android:layout_gravity="center_vertical"/>
+        <TextView android:text="15" android:width="200px" android:textAlignment="center" android:layout_gravity="center_vertical"/>
+    </TableRow>
+    <TableRow android:minHeight="50px">
+        <TextView android:text="@string/domingo" android:textAlignment="center" android:layout_gravity="center_vertical"/>
+        <ImageView android:src="@drawable/weather_rainning2" android:layout_height="100px"/>
+        <TextView android:text="26" android:width="200px" android:textAlignment="center" android:layout_gravity="center_vertical"/>
+        <TextView android:text="14" android:width="200px" android:textAlignment="center" android:layout_gravity="center_vertical"/>
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">E03 - Layout</string>
+    <string name="body_text">A tree fell on Saturday (10), interdicting a stretch of Avenida do Contorno, in the Floresta neighborhood, in the eastern region of Minas Gerais.\n\nAccording to the Transport and Traffic Company of Belo Horizonte (BHTrans) of vehicles was interrupted at the time of crossing with Itajubá Street, towards Santa Efigênia.\n\nThe Fire Department was called to cut the tree. Around 16:35, the corporation reported that another tree is also at risk of falling on the site and should be pruned or suppressed. \n\nAt 16h50, the traffic had been partially released on the spot, according to the military.\n\nGustavo da Silveira, in the Horto neighborhood, also in the Eastern Region, another tree fell at the time of the number 1,035. According to firefighters, wiring from the power grid was hit.\n\nboth instances there were no injuries.</string>
+    <string name="titulo">Tree falls on Avenida do Contorno</string>
+    <string name="subtitulo">Passage of vehicles was interrupted at the time of crossing with Itajubá Street, towards Santa Efigênia</string>
+    <string name="dia">Day</string>
+    <string name="previsao">Forecast</string>
+    <string name="segunda">Monday</string>
+    <string name="terca">Tuesday</string>
+    <string name="quarta">Wednesday</string>
+    <string name="quinta">Thursday</string>
+    <string name="sexta">Friday</string>
+    <string name="domingo">Sunday</string>
+    <string name="sabado">Saturday</string>
+    <string name="max">Maximum</string>
+    <string name="min">Minimum</string>
+    <string name="email">E-mail</string>
+    <string name="nota">"Remark: "</string>
+    <string name="nome">Name</string>
+    <string name="comentario">Comment</string>
+    <string name="enviar">Submit</string>
+    <string name="titulo_previsao">Week weather forecast:</string>
+    <string name="noticia">News</string>
+    <string name="tempo">Weather</string>
+    <string name="formulario">Form</string>
+</resources>

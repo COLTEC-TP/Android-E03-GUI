@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30px">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="br.ufmg.coltec.tp.e03_layout.MainActivity">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30px"
+            android:layout_marginTop="30px"
+            android:gravity="center"
+            android:text="@string/titulo"
+            android:textSize="80px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_marginBottom="20px"
+            android:gravity="center"
+            android:text="@string/subtitulo"
+            android:textSize="50px" />
+
+        <TextView
+            android:id="@+id/autor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/subtitle"
+            android:layout_marginBottom="100px"
+            android:layout_marginRight="40px"
+            android:gravity="right"
+            android:text="Sheev Palpatine"
+            android:textSize="40px"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/autor"
+            android:layout_marginBottom="30px"
+            android:gravity="center"
+            android:text="@string/body_text"
+            android:textSize="40px" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/body"
+            android:gravity="right"
+            android:text="20:00"
+            android:textSize="40px"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="400px"
+            android:layout_height="300px"
+            android:layout_below="@id/time"
+            android:foregroundGravity="left"
+            android:src="@drawable/palpatine" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/time"
+            android:layout_marginTop="36px"
+            android:layout_toEndOf="@+id/image"
+            android:text="Sheev Palpatine\n\nE-mail: unlimitedpower@gmail.com" />
+
+    </RelativeLayout>
+
+</ScrollView>
