@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.ufmg.coltec.tp.e03_layout.Noticia">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Lula Presidente"
+        android:textSize="35dp"
+        android:textAlignment="center"
+        android:textColor="#f00"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="Lula se re-elege pela 3ª vez"
+        android:textSize="21dp"
+        android:textColor="#b00"
+        />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="21dp"
+        android:text="Mathias Oliveira" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="      Lorem ipsum sociosqu habitasse laoreet placerat nullam etiam morbi senectus laoreet lacus eros, taciti hendrerit massa inceptos in enim etiam vel accumsan pretium iaculis. nibh duis suscipit enim nec id litora"
+
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView4"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="35dp"
+        android:text="11:52" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_below="@+id/textView7"
+        android:layout_marginTop="14dp"
+        android:layout_toStartOf="@+id/textView3"
+        android:src="@drawable/user" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:text="Mathias Oliveira" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView10"
+        android:layout_below="@+id/textView10"
+        android:text="mtgo007@hotmail.com" />
+
+</RelativeLayout>
