@@ -26,7 +26,7 @@ public class MainActivity extends Activity {
             }
         });
 
-        SplashScreen.setOnClickListener(new View.OnClickListener() {
+        Notícia.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,RelativeActivity.class);
@@ -34,10 +34,18 @@ public class MainActivity extends Activity {
             }
         });
 
-        SplashScreen.setOnClickListener(new View.OnClickListener() {
+        PrevisãoDoTempo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,TableActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Formulário.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,LinearActivity.class);
                 startActivity(intent);
             }
         });

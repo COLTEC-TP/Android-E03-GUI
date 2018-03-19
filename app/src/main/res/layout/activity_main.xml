@@ -42,6 +42,7 @@
         android:text="Previsão do Tempo"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="181dp"
+        android:layout_below="@id/botao2"
         />
 
     <Button
@@ -50,6 +51,8 @@
         android:layout_height="wrap_content"
         android:text="Formulário"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="247dp" />
+        tools:layout_editor_absoluteY="247dp"
+        android:layout_below="@id/botao3"
+        />
 
 </RelativeLayout>
