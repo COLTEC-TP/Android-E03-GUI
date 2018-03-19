@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.ufmg.coltec.tp.e03_layout.fourthActivity">
+
+    <TextView
+        android:id="@+id/txt_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Policial militar se fere levemente em acidente entre Move e motocicleta em BH"
+        android:textSize="25dp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/txt_sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A batida foi na Avenida Cristiano Machado, na altura do bairro Guarani, na Região Norte."
+        android:layout_below="@+id/txt_titulo"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/txt_autor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/txt_sub"
+        android:padding="10dp"
+        android:text="Autor: Artur Parreiras"/>
+
+    <TextView
+        android:id="@+id/txt_corpo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_autor"
+        android:text="Um policial militar ficou levemente ferido depois se envolver em um acidente na noite desta quarta-feira (14) em Belo Horizonte.
+
+O acidente entre um ônibus do Move Metropolitano e uma motocicleta da Polícia Militar foi na Avenida Cristiano Machado, na altura do bairro Guarani, na Região Norte de Belo Horizonte.
+
+Imagens enviadas para o WhatsApp da Globo Minas foram feitas pouco tempo depois da batida, que ocorreu na pista mista, onde trafegam ônibus e os demais veículos. O local foi liberado em seguida.
+"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/txt_hora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txt_autor"
+        android:layout_below="@+id/txt_corpo"
+        android:padding="10dp"
+        android:text="15/03/2018 - 08h29"/>
+
+    <ImageView
+        android:id="@+id/img_foto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/txt_corpo"
+        android:layout_marginEnd="123dp"
+        android:layout_marginTop="170dp"
+        android:layout_toStartOf="@+id/txt_autor"
+        android:src="@mipmap/william_bonner"
+        android:layout_below="@+id/txt_hora"/>
+
+    <TextView
+        android:id="@+id/txt_contato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/txt_hora"
+        android:layout_marginTop="87dp"
+        android:text="Contato: mouraartur00@gmail.com"
+        android:padding="5dp"/>
+
+
+</RelativeLayout>
