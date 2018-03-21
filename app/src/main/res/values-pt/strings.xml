@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">E03 - Layout</string>
+    <string name="tempo_cidade">Belo Horizonte</string>
+    <string name="tempo_subtitle">Previsão da semana</string>
+    <string name="tempo_day1">Dom</string>
+    <string name="tempo_day2">Seg</string>
+    <string name="tempo_day3">Ter</string>
+    <string name="tempo_day4">Qua</string>
+    <string name="tempo_day5">Hoje</string>
+    <string name="tempo_day6">Sex</string>
+    <string name="tempo_day7">Sab</string>
+    <string name="form_hint_nome">Nome</string>
+    <string name="form_hint_email">E-mail</string>
+    <string name="form_hint_comenta">Comentário</string>
+    <string name="form_botao">Enviar</string>
+    <string name="form_espere">Espere!</string>
+    <string name="form_msg">Você quer mesmo enviar?</string>
+    <string name="form_sim">Sim</string>
+    <string name="form_nao">Não</string>
+    <string name="form_msgS">Comentário enviado</string>
+    <string name="form_msgN">O que você está esperando? Envie seu comentário!</string>
+</resources>
