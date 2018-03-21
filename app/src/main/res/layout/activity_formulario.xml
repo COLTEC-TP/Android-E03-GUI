@@ -9,18 +9,18 @@
 
 
     <EditText
-        android:hint="Nome"
+        android:hint="@string/form_hint_nome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="E-mail"
+        android:hint="@string/form_hint_email"
         android:inputType="textEmailAddress"/>
 
     <EditText
-        android:hint="Comentário"
+        android:hint="@string/form_hint_comenta"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"/>
@@ -28,10 +28,11 @@
     <RatingBar
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Enviar"
+        android:text="@string/form_botao"
         android:layout_gravity="right"
         android:id="@+id/botao"/>
 

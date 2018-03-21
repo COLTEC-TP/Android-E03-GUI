@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">E03 - Layout</string>
+    <string name="tempo_cidade">New York</string>
+    <string name="tempo_subtitle">Week</string>
+    <string name="tempo_day1">Sun</string>
+    <string name="tempo_day2">Mon</string>
+    <string name="tempo_day3">Tue</string>
+    <string name="tempo_day4">Wed</string>
+    <string name="tempo_day5">Today</string>
+    <string name="tempo_day6">Fri</string>
+    <string name="tempo_day7">Sat</string>
+    <string name="form_hint_nome">Name</string>
+    <string name="form_hint_email">E-mail</string>
+    <string name="form_hint_comenta">Comment</string>
+    <string name="form_botao">Submit</string>
+    <string name="form_espere">Wait!</string>
+    <string name="form_msg">Do you really want to send it?</string>
+    <string name="form_sim">Yes</string>
+    <string name="form_nao">No</string>
+    <string name="form_msgS">Comment submitted.</string>
+    <string name="form_msgN">What are you waiting for? Submit your comment!</string>
 </resources>

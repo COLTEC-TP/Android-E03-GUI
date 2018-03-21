@@ -17,20 +17,20 @@ public class formularioActivity extends Activity {
 
         AlertDialog.Builder alertBuilder = new AlertDialog.Builder(this);
 
-        alertBuilder.setTitle("Espere!");
-        alertBuilder.setMessage("Você quer mesmo enviar?");
+        alertBuilder.setTitle(R.string.form_espere);
+        alertBuilder.setMessage(R.string.form_msg);
 
-        alertBuilder.setPositiveButton("Sim", new DialogInterface.OnClickListener() {
+        alertBuilder.setPositiveButton(R.string.form_sim, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-                Toast.makeText(getBaseContext(), "Comentário enviado", Toast.LENGTH_LONG).show();
+                Toast.makeText(getBaseContext(), R.string.form_msgS, Toast.LENGTH_LONG).show();
             }
         });
 
-        alertBuilder.setNegativeButton("Não", new DialogInterface.OnClickListener() {
+        alertBuilder.setNegativeButton(R.string.form_nao, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-                Toast.makeText(getBaseContext(), "O que está esperando? Envie seu comentário!", Toast.LENGTH_LONG).show();
+                Toast.makeText(getBaseContext(), R.string.form_msgN, Toast.LENGTH_LONG).show();
             }
         });
 
