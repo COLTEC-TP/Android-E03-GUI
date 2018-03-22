@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/blur">
+
+
+    <TableRow android:gravity="center">
+        <TextView
+            android:id="@+id/txtTitle"
+            android:text="Weather App"
+            android:textSize="20dp"
+            android:padding="20dp"
+            android:textColor="#fff"
+            android:background="#90000000"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/txtDomingo"
+            android:text="Domingo" android:textColor="#b3000000" android:background="#80FFFFFF" android:textSize="23dp" android:padding="12dp" />
+        <ImageView android:layout_width="101dp" android:layout_height="60dp" android:src="@drawable/parcnub" />
+        <TextView
+            android:gravity="center" android:padding="1dip" android:text="20ºC -" android:textSize="23dp" android:textColor="#2E4BFF"/>
+        <TextView
+            android:gravity="center" android:padding="1dip" android:text="29ºC" android:textSize="23dp" android:textColor="#CD1100"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/txtSegunda"
+            android:text="Segunda" android:textColor="#b3000000" android:background="#80FFFFFF" android:textSize="23dp" android:padding="13dp" />
+        <ImageView android:layout_width="101dp" android:layout_height="70dp" android:src="@drawable/sun" />
+        <TextView
+            android:gravity="center" android:padding="1dip" android:text="22ºC  -" android:textSize="23dp" android:textColor="#2E4BFF"/>
+        <TextView
+            android:gravity="center" android:padding="1dip" android:text="37ºC" android:textSize="23dp" android:textColor="#CD1100"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/txtTerca"
+            android:text="Terça" android:textColor="#b3000000" android:background="#80FFFFFF" android:textSize="23dp" android:padding="15dp" />
+        <ImageView android:layout_width="101dp" android:layout_height="70dp" android:src="@drawable/parcnub" />
+        <TextView
+            android:gravity="center" android:padding="1dip" android:text="21ºC -" android:textSize="23dp" android:textColor="#2E4BFF"/>
+        <TextView
+            android:gravity="center" android:padding="1dip" android:text="28ºC" android:textSize="23dp" android:textColor="#CD1100"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/txtQuarta"
+            android:text="Quarta" android:textColor="#b3000000" android:background="#80FFFFFF" android:textSize="23dp" android:padding="15dp"/>
+        <ImageView android:layout_width="101dp" android:layout_height="70dp" android:src="@drawable/parcnub"/>
+        <TextView
+            android:gravity="center" android:padding="1dip" android:text="21ºC -" android:textSize="23dp" android:textColor="#2E4BFF"/>
+        <TextView
+            android:gravity="center" android:padding="1dip" android:text="27ºC" android:textSize="23dp" android:textColor="#CD1100"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/txtQuinta"
+            android:text="Quinta" android:textColor="#b3000000" android:background="#80FFFFFF" android:textSize="23dp" android:padding="15dp" />
+        <ImageView android:layout_width="101dp" android:layout_height="70dp" android:src="@drawable/rain" />
+        <TextView
+            android:gravity="center" android:padding="1dip" android:text="17ºC -" android:textSize="23dp" android:textColor="#2E4BFF"/>
+        <TextView
+            android:gravity="center" android:padding="1dip" android:text="25ºC" android:textSize="23dp" android:textColor="#CD1100"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/txtSexta"
+            android:text="Sexta" android:textColor="#b3000000" android:background="#80FFFFFF" android:textSize="23dp" android:padding="15dp" />
+        <ImageView android:layout_width="101dp" android:layout_height="70dp" android:src="@drawable/light" />
+        <TextView
+            android:gravity="center" android:padding="1dip" android:text="15ºC -" android:textSize="23dp" android:textColor="#2E4BFF"/>
+        <TextView
+            android:gravity="center" android:padding="1dip" android:text="22ºC" android:textSize="23dp" android:textColor="#CD1100"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/txtSabado"
+            android:text="Sábado" android:textColor="#b3000000" android:background="#80FFFFFF" android:textSize="23dp" android:padding="15dp" />
+        <ImageView android:layout_width="101dp" android:layout_height="70dp" android:src="@drawable/sun" />
+        <TextView
+            android:gravity="center" android:padding="1dip" android:text="22ºC -" android:textSize="23dp" android:textColor="#2E4BFF"/>
+        <TextView
+            android:gravity="center" android:padding="1dip" android:text="32ºC" android:textSize="23dp" android:textColor="#CD1100"/>
+    </TableRow>
+</TableLayout>
