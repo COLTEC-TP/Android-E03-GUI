@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">E03 - Layout</string>
+    <string name="nome_user">Nome</string>
+    <string name="comentario">Comentários</string>
+    <string name="avalie">Avalie :)</string>
+    <string name="btn">Enviar</string>
+    <string name="confirmação">Confirmação</string>
+    <string name="confirmaTxt">Deseja Prosseguir com o Envio da Mensagem?</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="envio">Mensagem Enviada</string>
+    <string name="cancelamento">Mensagem Abortada</string>
 </resources>

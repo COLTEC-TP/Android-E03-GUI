@@ -16,6 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".FrameLayout" />
+        <activity android:name=".Noticia" />
+        <activity android:name=".wheather" />
+        <activity android:name=".form"></activity>
     </application>
 
 </manifest>

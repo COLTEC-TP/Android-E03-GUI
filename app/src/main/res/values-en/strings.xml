@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">E03 - Layout</string>
+    <string name="nome_user">Name</string>
+    <string name="comentario">Comments</string>
+    <string name="avalie">Rate it :)</string>
+    <string name="btn">Send</string>
+    <string name="confirmação">Confirmation</string>
+    <string name="confirmaTxt">Do You Wanna Proceed Sending the Message</string>
+    <string name="sim">Yes</string>
+    <string name="nao">No</string>
+    <string name="envio">Message Sent</string>
+    <string name="cancelamento">Message Aborted</string>
+</resources>
