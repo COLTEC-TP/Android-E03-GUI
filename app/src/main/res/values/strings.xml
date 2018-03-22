@@ -1,3 +1,28 @@
 <resources>
     <string name="app_name">E03 - Layout</string>
+    <!--Previsão do Tempo-->
+    <string name="dia">Day</string>
+    <string name="visual">Visualisation</string>
+    <string name="min">Minimum</string>
+    <string name="max">Maximum</string>
+    <string name="dom">Sunday</string>
+    <string name="seg">Monday</string>
+    <string name="ter">Tuesday</string>
+    <string name="qua">Wednesday</string>
+    <string name="qui">Thursday</string>
+
+    <!--Formulário-->
+    <string name="nome">Name</string>
+    <string name="email">Email</string>
+    <string name="comentario">Comment:</string>
+    <string name="nota">Note</string>
+    <string name="enviar">Submit</string>
+
+    <!--Toast-->
+    <string name="cuidado">Caution!</string>
+    <string name="pergunta">Are you sure you want to submit the form?</string>
+    <string name="sim">Yes</string>
+    <string name="confirma">Form sent successfully!</string>
+    <string name="cancela">Cancel</string>
+    <string name="confirmaDados">Confirm that all data is correct.</string>
 </resources>
