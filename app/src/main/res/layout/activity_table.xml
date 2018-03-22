@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newyork"
+    tools:context="br.ufmg.coltec.tp.e03_layout.Table">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="190dp"
+            android:text="New York"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="@string/dia"/>
+        <TextView android:text="@string/tmax" />
+        <TextView android:text="@string/tmin"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="@string/dom"/>
+
+        <TextView android:text="46°F"/>
+
+        <TextView android:text="30°F"/>
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sunny" />
+
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="@string/seg"/>
+        <TextView android:text="43°F"/>
+        <TextView android:text="31°F"/>
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/partly_cloudy" />
+
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="@string/ter"/>
+        <TextView android:text="39°F"/>
+        <TextView android:text="32°F"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rain" />
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="@string/qua"/>
+        <TextView android:text="41°F"/>
+        <TextView android:text="31°F"/>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/snow_light" />
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="@string/qui"/>
+        <TextView android:text="48°F"/>
+        <TextView android:text="32°F"/>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/partly_cloudy" />
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="@string/sex"/>
+        <TextView android:text="38°F"/>
+        <TextView android:text="28°F"/>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/partly_cloudy" />
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="@string/sab"/>
+        <TextView android:text="47°F"/>
+        <TextView android:text="28°F"/>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sunny" />
+    </TableRow>
+
+</TableLayout>
