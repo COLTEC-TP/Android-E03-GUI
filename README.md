@@ -2,7 +2,6 @@
 
 Professor: João Eduardo Montandon
 
-
 Como pré-requisito, esse exercício requer que você tenha terminado o exercício [anterior](https://github.com/COLTEC-TP/Android-E03-GUI/tree/layouts).
 
 Caso você já tenha terminado, é necessário atualizar este branch com o código implementado. Para isso, execute o comando abaixo no diretório do projeto:
