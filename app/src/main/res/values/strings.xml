@@ -1,6 +1,17 @@
 <resources>
     <string name="app_name">E03 - Layout</string>
-    <string name="button">Formulário</string>
-    <string name="previsao">Previsão</string>
-    <string name="noticias">Notícias</string>
+    <string name="button">Form</string>
+    <string name="previsao">Weather</string>
+    <string name="noticias">News</string>
+    <string name="titulo">Form</string>
+    <string name="pos1">Name</string>
+    <string name="pos2">E-mail</string>
+    <string name="pos3">Comments</string>
+    <string name="submit">Submit</string>
+    <string name="send">Sending Data</string>
+    <string name="sure">Are you sure?</string>
+    <string name="enviado">Data Sent!</string>
+    <string name="sim">Yes</string>
+    <string name="nao">No</string>
+    <string name="voltando">Ok! Returning!!</string>
 </resources>
