@@ -16,7 +16,9 @@ $ git merge layouts         # Atualiza o branch widgets com o conteúdo de layou
 
 Durante o preenchimento de um formulário, é uma boa prática exibir uma mensagem pedindo para que o usuário confirme o envio da mensagem, conforme esse [modelo](https://i.stack.imgur.com/wmgBG.png). No desenvolvimento de aplicativos para Android, geralmente essas mensagens de confirmação são codificadas por um `Dialog`.
 
+
 Você deverá implementar uma mensagem de confirmação para o usuário utilizando a classe `AlertDialog`. O `AlertDialog` deverá ser exibido no momento em que o usuário clicar no botão para envio do comentário. 
+
 
 Ainda, você deverá tratar as ambas as situações de confirmação e cancelamento do envio. Utilize `Toast` para exibir a mensagem de confirmação/cancelamento de envio do comentário.
 
