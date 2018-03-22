@@ -12,14 +12,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="text"
-        android:hint="Nome" />
+        android:hint="@string/txt_nome" />
 
     <EditText
         android:id="@+id/txt_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/txt_nome"
-        android:hint="E-mail"
+        android:hint="@string/txt_email"
         android:inputType="textEmailAddress" />
 
     <EditText
@@ -27,7 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/txt_email"
-        android:hint="comentários"
+        android:hint="@string/txt_coment"
         android:inputType="textLongMessage" />
 
     <TextView
@@ -37,7 +37,7 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/txt_coment"
         android:layout_marginTop="17dp"
-        android:text="NOTA:"
+        android:text="@string/textView"
         android:textSize="20dp"/>
 
     <RatingBar
@@ -53,6 +53,6 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/ratingBar"
-        android:text="SUBMIT" />
+        android:text="@string/txt_sub" />
 
 </LinearLayout>

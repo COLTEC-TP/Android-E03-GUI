@@ -1,5 +1,6 @@
 package br.ufmg.coltec.tp.e03_layout;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;

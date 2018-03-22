@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">E03 - Layout</string>
+    <string name="txt_nome">Name</string>
+    <string name="txt_email">E-mail</string>
+    <string name="txt_coment">Comments</string>
+    <string name="textView">Rating:</string>
+    <string name="txt_sub">SUBMIT</string>
+    <string name="domingo">Sunday</string>
+    <string name="segunda">Monday</string>
+    <string name="terca">Tuesday</string>
+    <string name="quarta">Wednesday</string>
+    <string name="quinta">Thursday</string>
+    <string name="sexta">Friday</string>
+    <string name="sabado">Saturday</string>
+</resources>

@@ -9,13 +9,15 @@
     android:background="@mipmap/rosa">
 
     <TableRow>
+
         <TextView
-            android:text="DOMINGO"
-            android:textSize="20dp"
-            android:layout_gravity="center"/>
+            android:text="@string/domingo"
+            android:padding="15dip"
+            android:textSize="20dp" />
 
         <ImageView
-            android:src="@mipmap/chuva2"/>
+            android:src="@mipmap/chuva2"
+            android:layout_marginTop="12dp"/>
         <TextView
             android:text="18º"
             android:textSize="20dp"
@@ -28,7 +30,7 @@
 
     <TableRow>
         <TextView
-            android:text="SEGUNDA"
+            android:text="@string/segunda"
             android:padding="15dip"
             android:textSize="20dp"/>
         <ImageView
@@ -45,7 +47,7 @@
 
     <TableRow>
         <TextView
-            android:text="TERÇA"
+            android:text="@string/terca"
             android:padding="15dip"
             android:textSize="20dp"/>
         <ImageView
@@ -62,7 +64,7 @@
 
     <TableRow>
         <TextView
-            android:text="QUARTA"
+            android:text="@string/quarta"
             android:padding="15dip"
             android:textSize="20dp"/>
         <ImageView
@@ -80,7 +82,7 @@
 
     <TableRow>
         <TextView
-            android:text="QUINTA"
+            android:text="@string/quinta"
             android:padding="15dip"
             android:textSize="20dp"/>
         <ImageView
@@ -97,7 +99,7 @@
 
     <TableRow>
         <TextView
-            android:text="SEXTA"
+            android:text="@string/sexta"
             android:padding="15dip"
             android:textSize="20dp"/>
         <ImageView
@@ -114,7 +116,7 @@
 
     <TableRow>
         <TextView
-            android:text="SÁBADO"
+            android:text="@string/sabado"
             android:padding="15dip"
             android:textSize="20dp"/>
         <ImageView
