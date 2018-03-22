@@ -10,10 +10,11 @@ public class MainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        final Intent splashScreen = new Intent(MainActivity.this, SplashScreen.class);
-        startActivity(splashScreen);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        final Intent splashScreen = new Intent(MainActivity.this, SplashScreen.class);
+        startActivity(splashScreen);
 
         final Intent noticia = new Intent(MainActivity.this, Noticia.class);
         final Intent tempo = new Intent(MainActivity.this, PrevisaoDoTempo.class);
@@ -42,4 +43,3 @@ public class MainActivity extends Activity {
         });
     }
 }
-

@@ -20,7 +20,7 @@
             android:layout_marginBottom="30px"
             android:layout_marginTop="30px"
             android:gravity="center"
-            android:text="@string/titulo"
+            android:text="Árvore cai na Avenida do Contorno"
             android:textSize="80px"
             android:textStyle="bold" />
 
@@ -31,7 +31,7 @@
             android:layout_below="@+id/title"
             android:layout_marginBottom="20px"
             android:gravity="center"
-            android:text="@string/subtitulo"
+            android:text="Passagem de veículos foi interrompida na altura do cruzamento com Rua Itajubá, no sentido Santa Efigênia"
             android:textSize="50px" />
 
         <TextView
@@ -80,7 +80,7 @@
             android:layout_below="@+id/time"
             android:layout_marginTop="36px"
             android:layout_toEndOf="@+id/image"
-            android:text="Sheev Palpatine\n\nE-mail: unlimitedpower@gmail.com" />
+            android:text="Nome: Sheev Palpatine\n\nE-mail: unlimitedpower@gmail.com" />
 
     </RelativeLayout>
 

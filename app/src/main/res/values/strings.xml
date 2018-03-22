@@ -1,26 +1,4 @@
 <resources>
     <string name="app_name">E03 - Layout</string>
     <string name="body_text">Uma árvore caiu, neste sábado (10), interditando um trecho da Avenida do Contorno, no bairro Floresta, na Região Leste da capital mineira.\n\nDe acordo com a Empresa de Transportes e Trânsito de Belo Horizonte (BHTrans), a passagem de veículos foi interrompida na altura do cruzamento com a Rua Itajubá, no sentido Santa Efigênia.\n\nO Corpo de Bombeiros foi chamado para fazer o corte da árvore. Por volta das 16h35, a corporação informou que outra árvore também apresenta risco de queda no local e deverá ser podada ou suprimida.\n\nÀs 16h50, o trânsito havia sido parcialmente liberado no local, conforme os militares.\n\nJá na Rua Gustavo da Silveira, no bairro Horto, também na Região Leste, outra árvore caiu na altura do número 1.035. Segundo os bombeiros, a fiação da rede elétrica foi atingida.\n\nNas duas ocorrências, não houve feridos.</string>
-    <string name="titulo">Árvore cai na Avenida do Contorno</string>
-    <string name="subtitulo">Passagem de veículos foi interrompida na altura do cruzamento com Rua Itajubá, no sentido Santa Efigênia</string>
-    <string name="dia">Dia</string>
-    <string name="previsao">Previsão</string>
-    <string name="segunda">Segunda Feira</string>
-    <string name="terca">Terça Feira</string>
-    <string name="quarta">Quarta Feira</string>
-    <string name="quinta">Quinta Feira</string>
-    <string name="sexta">Sexta Feira</string>
-    <string name="sabado">Sábado</string>
-    <string name="domingo">Domingo</string>
-    <string name="max">Máximo</string>
-    <string name="min">Mínimo</string>
-    <string name="nome">Nome</string>
-    <string name="email">E-mail</string>
-    <string name="nota">Nota:</string>
-    <string name="comentario">Comentário</string>
-    <string name="enviar">Enviar</string>
-    <string name="titulo_previsao">Previsão do tempo para a semana:</string>
-    <string name="noticia">Notícias</string>
-    <string name="tempo">Tempo</string>
-    <string name="formulario">Formulário</string>
 </resources>
