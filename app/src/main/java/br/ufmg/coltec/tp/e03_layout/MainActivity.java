@@ -13,10 +13,10 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button SplashScreen = findViewById(R.id.botao1);
-        Button Notícia = findViewById(R.id.botao2);
-        Button PrevisãoDoTempo = findViewById(R.id.botao3);
-        Button Formulário = findViewById(R.id.botao4);
+        Button SplashScreen = (Button) findViewById(R.id.botao1);
+        Button Notícia = (Button) findViewById(R.id.botao2);
+        Button PrevisãoDoTempo = (Button) findViewById(R.id.botao3);
+        Button Formulário = (Button) findViewById(R.id.botao4);
 
         SplashScreen.setOnClickListener(new View.OnClickListener() {
             @Override

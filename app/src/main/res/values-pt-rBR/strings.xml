@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Previsaão do Tempo-->
+    <string name="dia">Dia</string>
+    <string name="visual">Visualmente</string>
+    <string name="min">Mínimo</string>
+    <string name="max">Máximo</string>
+    <string name="dom">Domingo</string>
+    <string name="seg">Segunda</string>
+    <string name="ter">Terça</string>
+    <string name="qua">Quarta</string>
+    <string name="qui">Quinta</string>
+
+    <!--Formulário-->
+    <string name="nome">Nome</string>
+    <string name="email">E-mail</string>
+    <string name="comentario">Comentário:</string>
+    <string name="nota">Nota</string>
+    <string name="enviar">Enviar</string>
+
+    <!--Toast-->
+    <string name="cuidado">Cuidado!</string>
+    <string name="pergunta">Tem certeza que deseja enviar o formulário?</string>
+    <string name="sim">Sim</string>
+    <string name="confirma">Formulário enviado com sucesso!</string>
+    <string name="cancela">Cancelar</string>
+    <string name="confirmaDados">Confirme se todos os dados então corretos.</string>
+</resources>
