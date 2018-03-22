@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.ufmg.coltec.tp.e03_layout.NewsActivity">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Donald Trump é eleito o melhor Presidente do Mundo"
+        android:textSize="23dp"
+        android:textColor="#000000"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/subtitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Em votação dentro da casa branca, Donald Trump ganha com unanimidade o posto de melhor presidente do mundo"
+        android:layout_below="@+id/titulo"
+        android:layout_marginTop="10dp"
+        android:textSize="10dp"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/autor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/subtitulo"
+        android:text="Hillary Clinton"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:textSize="10dp"/>
+    <TextView
+        android:id="@+id/corpo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/autor"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="Não obstante, a consolidação das estruturas nos obriga à análise das direções preferenciais no sentido do progresso. Por outro lado, a mobilidade dos capitais internacionais estende o alcance e a importância da gestão inovadora da qual fazemos parte. Podemos já vislumbrar o modo pelo qual o entendimento das metas propostas representa uma abertura para a melhoria do sistema de participação geral. A nível organizacional, o consenso sobre a necessidade de qualificação é uma das consequências das diversas correntes de pensamento. As experiências acumuladas demonstram que a expansão dos mercados mundiais não pode mais se dissociar das diretrizes de desenvolvimento para o futuro." />
+    <TextView
+        android:id="@+id/hora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/corpo"
+        android:text="17:23"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:textSize="10dp"/>
+
+    <ImageView
+        android:id="@+id/foto"
+        android:layout_width="300px"
+        android:layout_height="400px"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/corpo"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/h_clinton" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/hora"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@+id/foto"
+        android:text="Autor: Hillary Clinton
+        Contato:Hclnton@noofficialmail.com" />
+
+</RelativeLayout>
