@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.ufmg.coltec.tp.e03_layout.fifithActivity"
+    android:stretchColumns="1"
+    android:background="@mipmap/rosa">
+
+    <TableRow>
+
+        <TextView
+            android:text="@string/domingo"
+            android:padding="15dip"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:src="@mipmap/chuva2"
+            android:layout_marginTop="12dp"/>
+        <TextView
+            android:text="18º"
+            android:textSize="20dp"
+            android:layout_marginRight="50dp"/>
+        <TextView
+            android:text="24º"
+            android:textSize="20dp"
+            android:layout_marginRight="40dp"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/segunda"
+            android:padding="15dip"
+            android:textSize="20dp"/>
+        <ImageView
+            android:src="@mipmap/chuva2"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:text="19º"
+            android:textSize="20dp"
+            android:layout_marginRight="50dp"/>
+        <TextView
+            android:text="24º"
+            android:textSize="20dp"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/terca"
+            android:padding="15dip"
+            android:textSize="20dp"/>
+        <ImageView
+            android:src="@mipmap/chuva2"
+            android:layout_marginTop="14dp"/>
+        <TextView
+            android:text="19º"
+            android:textSize="20dp"
+            android:layout_marginRight="30dp"/>
+        <TextView
+            android:text="24º"
+            android:textSize="20dp"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/quarta"
+            android:padding="15dip"
+            android:textSize="20dp"/>
+        <ImageView
+            android:src="@mipmap/nublado2"
+            android:layout_marginTop="18dp"/>
+        <TextView
+            android:text="20º"
+            android:textSize="20dp"
+            android:layout_marginRight="30dp"/>
+        <TextView
+            android:text="27º"
+            android:textSize="20dp"/>
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/quinta"
+            android:padding="15dip"
+            android:textSize="20dp"/>
+        <ImageView
+            android:src="@mipmap/nublado2"
+            android:layout_marginTop="18dp"/>
+        <TextView
+            android:text="21º"
+            android:textSize="20dp"
+            android:layout_marginRight="30dp"/>
+        <TextView
+            android:text="27º"
+            android:textSize="20dp"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/sexta"
+            android:padding="15dip"
+            android:textSize="20dp"/>
+        <ImageView
+            android:src="@mipmap/sol2"
+            android:layout_marginTop="13dp"/>
+        <TextView
+            android:text="25º"
+            android:textSize="20dp"
+            android:layout_marginRight="30dp"/>
+        <TextView
+            android:text="32º"
+            android:textSize="20dp"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/sabado"
+            android:padding="15dip"
+            android:textSize="20dp"/>
+        <ImageView
+            android:src="@mipmap/sol2"
+            android:layout_marginTop="13dp"/>
+        <TextView
+            android:text="25º"
+            android:textSize="20dp"
+            android:layout_marginRight="30dp"/>
+        <TextView
+            android:text="32º"
+            android:textSize="20dp"/>
+    </TableRow>
+
+</TableLayout>
