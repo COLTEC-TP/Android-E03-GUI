@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ex03widget</string>
+    <string name="txtDomingo">Domingo</string>
+    <string name="txtSegunda">Segunda</string>
+    <string name="txtTerca">Terça</string>
+    <string name="txtQuarta">Quarta</string>
+    <string name="txtQuinta">Quinta</string>
+    <string name="txtSexta">Sexta</string>
+    <string name="txtSabado">Sábado</string>
+</resources>
