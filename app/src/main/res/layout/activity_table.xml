@@ -18,13 +18,13 @@
     </TableRow>
 
     <TableRow>
-        <TextView android:text="Dia"/>
-        <TextView android:text="Temp. max." />
-        <TextView android:text="Temp. min."/>
+        <TextView android:text="@string/dia"/>
+        <TextView android:text="@string/tmax" />
+        <TextView android:text="@string/tmin"/>
     </TableRow>
 
     <TableRow>
-        <TextView android:text="Domingo"/>
+        <TextView android:text="@string/dom"/>
 
         <TextView android:text="46°F"/>
 
@@ -39,7 +39,7 @@
     </TableRow>
 
     <TableRow>
-        <TextView android:text="Segunda-feira"/>
+        <TextView android:text="@string/seg"/>
         <TextView android:text="43°F"/>
         <TextView android:text="31°F"/>
 
@@ -52,7 +52,7 @@
     </TableRow>
 
     <TableRow>
-        <TextView android:text="Terça-feira"/>
+        <TextView android:text="@string/ter"/>
         <TextView android:text="39°F"/>
         <TextView android:text="32°F"/>
 
@@ -64,7 +64,7 @@
     </TableRow>
 
     <TableRow>
-        <TextView android:text="Quarta-Feira"/>
+        <TextView android:text="@string/qua"/>
         <TextView android:text="41°F"/>
         <TextView android:text="31°F"/>
 
@@ -76,7 +76,7 @@
     </TableRow>
 
     <TableRow>
-        <TextView android:text="Quinta-Feira"/>
+        <TextView android:text="@string/qui"/>
         <TextView android:text="48°F"/>
         <TextView android:text="32°F"/>
 
@@ -88,7 +88,7 @@
     </TableRow>
 
     <TableRow>
-        <TextView android:text="Sexta-Feira"/>
+        <TextView android:text="@string/sex"/>
         <TextView android:text="38°F"/>
         <TextView android:text="28°F"/>
 
@@ -100,7 +100,7 @@
     </TableRow>
 
     <TableRow>
-        <TextView android:text="Sábado"/>
+        <TextView android:text="@string/sab"/>
         <TextView android:text="47°F"/>
         <TextView android:text="28°F"/>
 

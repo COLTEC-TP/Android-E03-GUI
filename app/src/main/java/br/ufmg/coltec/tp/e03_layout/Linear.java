@@ -1,6 +1,7 @@
 package br.ufmg.coltec.tp.e03_layout;
 
-import android.content.Intent;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
@@ -19,10 +20,28 @@ public class Linear extends Activity {
         enviar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast toast = Toast.makeText(Linear.this, "Formulario enviado com sucesso", Toast.LENGTH_LONG);
-                toast.show();
-                Intent intent = new Intent(Linear.this, MainActivity.class);
-                startActivity(intent);
+                AlertDialog.Builder alertbuilder = new AlertDialog.Builder(Linear.this);
+
+                alertbuilder.setTitle("Confirmação");
+                alertbuilder.setMessage("Confirma o comentário?");
+
+                alertbuilder.setPositiveButton("Sim", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        Toast.makeText(getBaseContext(), "Comentário enviado", Toast.LENGTH_SHORT).show();
+                    }
+                });
+
+                alertbuilder.setNegativeButton("Cancelar", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        Toast.makeText(getBaseContext(), "O comentário foi cancelado", Toast.LENGTH_SHORT).show();
+                    }
+                });
+
+                AlertDialog dialog = alertbuilder.create();
+                dialog.show();
+
             }
         });
 
