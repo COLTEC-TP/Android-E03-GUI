@@ -11,7 +11,7 @@
         android:id="@+id/textView6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nome:"
+        android:text="@string/nome_user"
         android:textSize="18dp"/>
 
     <EditText
@@ -20,12 +20,12 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:hint="Nome" />
+        android:hint="@string/nome_user" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Cometários"
+        android:text="@string/comentario"
         android:textSize="18dp"/>
 
     <EditText
@@ -33,7 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Comentários"
+        android:hint="@string/comentario"
         android:inputType="textMultiLine"/>
 
     <TextView
@@ -41,7 +41,7 @@
         android:id="@+id/textView8"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Avalie :)"
+        android:text="@string/avalie"
         android:textSize="18dp"
         android:textAlignment="center"/>
 
@@ -52,9 +52,9 @@
         android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/envia"
         android:layout_marginTop="25dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Enviar" />
+        android:text="@string/btn" />
 </LinearLayout>
