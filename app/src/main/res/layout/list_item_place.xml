@@ -6,8 +6,8 @@
     android:layout_margin="10dp">
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:id="@+id/img_place_photo"
         android:src="@drawable/ic_launcher_background"/>
 
@@ -32,14 +32,15 @@
     <RatingBar
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@id/img_place_photo"
         android:layout_alignLeft="@id/txt_place_name"
+        android:layout_below="@id/txt_place_description"
         android:layout_marginTop="10dp"
-        style="?android:attr/ratingBarStyleSmall"
+        style="android:attr/ratingBarStyleSmall"
         android:isIndicator="true"
         android:numStars="5"
         android:rating="3"
-        android:stepSize="0.5" />
+        android:stepSize="0.5"
+        android:id="@+id/ratingBar"/>
 
     <TextView
         android:layout_width="wrap_content"
