@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/textura"
+    tools:context="br.ufmg.coltec.tp.e03_layout.formularioActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:hint="@string/FORMULARIO_Nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:hint="@string/FORMULARIO_Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        />
+
+    <EditText
+        android:id="@+id/editarEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:hint="@string/FORMULARIO_Comentario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+       />
+
+    <EditText
+        android:id="@+id/editarComentario"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+    <TextView
+        android:hint="@string/FORMULARIO_Nota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+       />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="1.0"
+        />
+
+    <Button
+        android:hint="@string/FORMULARIO_BUTTON_Enviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/botaoEnviar"
+       />
+
+</LinearLayout>

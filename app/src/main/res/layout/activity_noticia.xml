@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/textura"
+    tools:context="br.ufmg.coltec.tp.e03_layout.noticiaActivity">
+
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:layout_marginBottom="10dp"
+        android:textSize="40dp"
+        android:text="Morre hoje Stephen Hawking"
+
+        />
+
+
+    <TextView
+        android:id="@+id/subtitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titulo"
+        android:layout_marginBottom="5dp"
+        android:textColor="#0000FF"
+        android:text="Stephen Hawking, físico britânico, morre aos 76 anos"
+        android:textSize="20dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/autor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/subtitulo"
+        android:layout_marginBottom="5dp"
+        android:textColor="#FF0000"
+        android:gravity="right"
+        android:text="g1 (portal globo)"
+        android:textSize="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/corpo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/autor"
+        android:textColor="#8B4513"
+        android:text="Stephen William Hawking, físico e pesquisador britânico, morreu aos 76 anos nesta quarta-feira (14) em sua casa na Inglaterra. Hawking se tornou um dos cientistas mais conhecidos do mundo ao abordar temas como a natureza da gravidade e a origem do universo."
+        android:textSize="15dp" />
+
+
+    <TextView
+        android:id="@+id/horario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/corpo"
+        android:gravity="right"
+        android:text="Horário 09:40"
+        android:textSize="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/foto"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/horario"
+        android:foregroundGravity="left"
+        android:src="@drawable/autor" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/horario"
+        android:layout_marginTop="50dp"
+        android:layout_toEndOf="@+id/foto"
+        android:textSize="14dp"
+        android:text="Nome do autor: Jornalista da globo. Email: jornalistadaglobo@globo.com" />
+
+</RelativeLayout>
