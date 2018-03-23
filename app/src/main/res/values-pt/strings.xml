@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">E03 - Layout</string>
+    <string name="FORMULARIO_submit">Enviar</string>
+    <string name="FORMULARIO_areYouSure">Tem certeza?</string>
+    <string name="FORMULARIO_PositiveButton">Sim</string>
+    <string name="FORMULARIO_NegativeButton">Não</string>
+    <string name="FORMULARIO_MensagemEnviado">Enviado com sucesso!</string>
+    <string name="FORMULARIO_MensagemNaoEnviada">Não Enviado.</string>
+    <string name="FORMULARIO_Nome">Nome: </string>
+    <string name="FORMULARIO_Email">Email: </string>
+    <string name="FORMULARIO_Comentario">Comentário: </string>
+    <string name="FORMULARIO_Nota">Nota: </string>
+    <string name="FORMULARIO_BUTTON_Enviar">Enviar: </string>
+
+
+    <string name="PREVISAO_dia">Dia</string>
+    <string name="PREVISAO_tempo">Clima</string>
+    <string name="PREVISAO_segunda">Segunda</string>
+    <string name="PREVISAO_terca">Terça</string>
+    <string name="PREVISAO_quarta">Quarta</string>
+    <string name="PREVISAO_quinta">Quinta</string>
+    <string name="PREVISAO_sexta">Sexta</string>
+
+
+
+
+</resources>
