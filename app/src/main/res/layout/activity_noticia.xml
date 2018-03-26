@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/noticia"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:text=" Brasil pode criar o nióbioCoin "
+        android:textColor="#000000"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/subtitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/titulo"
+        android:layout_below="@+id/titulo"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="18dp"
+        android:text="influenciado dor venezuela criamos nossa moeda"
+        android:textColor="#4169E1" />
+
+    <TextView
+        android:id="@+id/autor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/subtitulo"
+        android:layout_marginLeft="38dp"
+        android:layout_marginStart="260dp"
+        android:text="Ítalo Dell Areti" />
+
+
+    <TextView
+        android:id="@+id/corpo"
+        android:layout_width="350dp"
+        android:layout_height="160dp"
+        android:layout_alignStart="@+id/subtitulo"
+        android:layout_below="@+id/autor"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="21dp"
+        android:text="Alguns países como os Estados Unidos impõem restrições financeiras ao país. Alguns funcionários do governo, por exemplo, têm suas contas bloqueadas.A moeda, disse ele, será respaldada nas reservas venezuelanas de ouro, petróleo, gás e diamante.\n Maduro não explicou como esse arranjo funcionaria nem quando a moeda passaria a circular.Muitos venezuelanos já recorrem a criptomoedas, com mais ênfase no bitcoin, a mais famosa das moedas virtuais ." />
+
+    <TextView
+        android:id="@+id/corpo2"
+        android:layout_width="350dp"
+        android:layout_height="84dp"
+        android:layout_alignStart="@+id/corpo"
+        android:layout_below="@+id/corpo"
+        android:text="Alguns países como os Estados Unidos impõem restrições financeiras ao país. Alguns funcionários do governo, por exemplo, têm suas contas bloqueadas.A moeda, disse ele, será respaldada nas reservas venezuelanas de ouro, petróleo, gás e diamante." />
+
+    <TextView
+        android:id="@+id/horas"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:text="20:53 hrs"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignStart="@+id/titulo"
+        android:layout_below="@+id/horas"
+        android:src="@drawable/foto" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="220dp"
+        android:layout_height="95dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:text="Ítalo Dell Areti                                                         dellaretiitalo@gmail.com                                                         https://github.com/dellareti "
+        android:textAlignment="center" />
+
+</RelativeLayout>

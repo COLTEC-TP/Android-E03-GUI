@@ -13,17 +13,6 @@ $ git checkout layouts      # altera para o branch do exercício
 Em seguida, você deverá abrir o Android Studio e abrir o projeto através da opção `File > New > Import Project...`.
 
 ## Explorando os Layouts
-
-O Android provê uma série de layouts definidos por padrão para criar as mais diversas telas. Cada  layout possui uma série de características que o torna adequado para uso em cada uma das várias situações existentes. 
-
-Esse exercício tem como objetivo compreender os principais layouts existentes através da criação de telas que explorem seus respectivos rescursos. Sua tarefa será criar um aplicativo que demonstre o bom uso de cada um dos principais layouts existentes, conforme instruções abaixo.
-
-### SplashScreen
-
-As SplashScreen são telas que aparecem no momento em que o aplicativo está carregando. Utilize o `FrameLayout` para construir uma tela de carregamento. As telas de carregamento geralmente possuem uma imagem de fundo com um componente de carregamento a frente, conforme este [exemplo](https://dribbble.com/shots/1685679-Vaporware-Splash-Screen-Animation).
-
-### Notícia
-
 Utilize o `RelativeLayout` para criar uma tela de exibição de notícia. A tela deverá conter:
 
 * Título da notícia no topo da tela
@@ -53,8 +42,3 @@ Utilize o `LinearLayout` para criar uma tela de formulário de cadastro de um co
 ### Empacotando Tudo
 
 Altere a `MainActivity` do projeto incluindo uma série de botões que, ao serem clicados, redirecione para cada uma das telas criadas anteriormente.
- 
-
-
-
-
