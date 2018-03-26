@@ -1,0 +1,265 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tempo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.italo.layouts.Tempo">
+
+    <TextView
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="30dp"
+        android:width="600px"
+        android:text="Belo Horizonte"
+        android:textAlignment="inherit"
+        android:textColor="#000000"
+        android:textSize="27dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:layout_gravity="center_vertical"
+        android:width="600px"
+        android:text="Minas Gerais,Brasil"
+        android:textAlignment="inherit"
+        android:textColor="#000000"
+        android:textSize="14dp"
+        android:layout_marginBottom="70dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TableRow android:minHeight="50px">
+
+        <TextView
+            android:layout_width="114dp"
+            android:width="300px"
+            android:text="@string/dia"
+            android:textAlignment="center"
+            android:textColor="#000000" />
+
+
+        <TextView
+            android:layout_width="92dp"
+            android:layout_height="30dp"
+            android:width="60px"
+            android:text="@string/previsao"
+            android:textAlignment="center"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="89dp"
+            android:width="60px"
+            android:text="Máx"
+            android:textAlignment="center"
+            android:textColor="#000000" />
+
+        <TextView
+            android:width="80px"
+            android:text="Mín"
+            android:textAlignment="inherit"
+            android:textColor="#000000" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:minHeight="80px">
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:text="@string/segunda"
+            android:textAlignment="center"
+            android:textColor="#000000"
+
+            />
+
+        <ImageView
+            android:layout_width="99dp"
+            android:layout_height="50dp"
+            android:src="@drawable/chuva" />
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:width="200px"
+            android:text="22"
+            android:textAlignment="center"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:width="200px"
+            android:text="18"
+            android:textAlignment="inherit"
+            android:textColor="#000000" />
+    </TableRow>
+
+
+    <TableRow android:minHeight="50px">
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:text="@string/terca"
+            android:textAlignment="center"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:layout_width="99dp"
+            android:layout_height="50dp"
+            android:src="@drawable/parcial" />
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:width="200px"
+            android:text="23"
+            android:textAlignment="center"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:width="200px"
+            android:text="21"
+            android:textAlignment="inherit"
+            android:textColor="#000000" />
+    </TableRow>
+
+    <TableRow android:minHeight="50px">
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:text="@string/quarta"
+            android:textAlignment="center"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:layout_width="99dp"
+            android:layout_height="50dp"
+            android:src="@drawable/nuvens" />
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:width="200px"
+            android:text="22"
+            android:textAlignment="center"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:width="200px"
+            android:text="19"
+            android:textAlignment="inherit"
+            android:textColor="#000000" />
+    </TableRow>
+
+    <TableRow android:minHeight="50px">
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:text="@string/quinta"
+            android:textAlignment="center"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:layout_width="99dp"
+            android:layout_height="50dp"
+            android:src="@drawable/sun" />
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:width="200px"
+            android:text="27"
+            android:textAlignment="center"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:width="200px"
+            android:text="25"
+            android:textAlignment="inherit"
+            android:textColor="#000000" />
+    </TableRow>
+
+    <TableRow android:minHeight="50px">
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:text="@string/sexta"
+            android:textAlignment="center"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:layout_width="99dp"
+            android:layout_height="50dp"
+            android:src="@drawable/electric" />
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:width="200px"
+            android:text="23"
+            android:textAlignment="center"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:width="200px"
+            android:text="22"
+            android:textAlignment="inherit"
+            android:textColor="#000000" />
+    </TableRow>
+
+    <TableRow android:minHeight="50px">
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:text="@string/sabado"
+            android:textAlignment="center"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:layout_width="99dp"
+            android:layout_height="50dp"
+            android:src="@drawable/cloud" />
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:width="200px"
+            android:text="26"
+            android:textAlignment="center"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:width="200px"
+            android:text="24"
+            android:textAlignment="inherit"
+            android:textColor="#000000" />
+    </TableRow>
+
+    <TableRow android:minHeight="50px">
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:text="@string/domingo"
+            android:textAlignment="center"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:layout_width="99dp"
+            android:layout_height="50dp"
+            android:src="@drawable/chuva" />
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:width="200px"
+            android:text="22"
+            android:textAlignment="center"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:width="200px"
+            android:text="17"
+            android:textAlignment="inherit"
+            android:textColor="#000000" />
+    </TableRow>
+
+</TableLayout>
