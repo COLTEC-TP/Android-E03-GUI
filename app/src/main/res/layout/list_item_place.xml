@@ -39,6 +39,7 @@
         android:isIndicator="true"
         android:numStars="5"
         android:rating="3"
+        android:id="@+id/ratingBar"
         android:stepSize="0.5" />
 
     <TextView
