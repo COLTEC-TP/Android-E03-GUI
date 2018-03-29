@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    tools:context="br.ufmg.coltec.tp.e03_layout.Tempo">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="5dp"
+        android:shrinkColumns="*"
+        android:stretchColumns="1">
+        <TableRow>
+            <ImageView
+                android:src="@drawable/ic_menu"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Belo Horizonte"
+                android:textColor="#FFF"
+                android:textSize="25sp" />
+            <ImageView
+                android:src="@drawable/ic_add"
+                />
+        </TableRow>
+    </TableLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <!-- Bloco de previsao com dias da semana -->
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/rounded_border"
+                android:padding="5dp"
+                android:shrinkColumns="*">
+
+                <TableRow android:padding="10dp">
+
+                    <TextView
+                        android:text="Previsão"
+                        android:textColor="#FFF"
+                        android:textSize="26sp" />
+                </TableRow>
+
+                <View
+                    style="@style/Divider"
+                    android:background="#FFF" />
+
+                <!-- Bloco com os dias da semana -->
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:shrinkColumns="*"
+                    android:stretchColumns="1,2,3">
+
+                    <TableRow
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp">
+
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:text="Segunda-Feira"
+                            android:textColor="#FFF"
+                            android:textSize="22sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_wi_day_sunny_overcast" />
+
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:gravity="right"
+                            android:text="25º"
+                            android:textColor="#0FF"
+                            android:textSize="22sp" />
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:text="32º"
+                            android:textColor="#FFA500"
+                            android:textSize="22sp" />
+                    </TableRow>
+
+                    <View style="@style/DottedLine" />
+
+                    <TableRow
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp">
+
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:text="Terça-Feira"
+                            android:textColor="#FFF"
+                            android:textSize="22sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_wi_day_sunny" />
+
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:gravity="right"
+                            android:text="27º"
+                            android:textColor="#0FF"
+                            android:textSize="22sp" />
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:text="33º"
+                            android:textColor="#FFA500"
+                            android:textSize="22sp" />
+                    </TableRow>
+
+                    <View style="@style/DottedLine" />
+
+                    <TableRow
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp">
+
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:text="Quarta-Feira"
+                            android:textColor="#FFF"
+                            android:textSize="22sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_wi_day_cloudy" />
+
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:gravity="right"
+                            android:text="23º"
+                            android:textColor="#0FF"
+                            android:textSize="22sp" />
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:text="29º"
+                            android:textColor="#FFA500"
+                            android:textSize="22sp" />
+                    </TableRow>
+
+                    <View style="@style/DottedLine" />
+
+                    <TableRow
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp">
+
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:text="Quinta-Feira"
+                            android:textColor="#FFF"
+                            android:textSize="22sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_wi_day_rain" />
+
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:gravity="right"
+                            android:text="19º"
+                            android:textColor="#0FF"
+                            android:textSize="22sp" />
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:text="25º"
+                            android:textColor="#FFA500"
+                            android:textSize="22sp" />
+                    </TableRow>
+
+                    <View style="@style/DottedLine" />
+
+                    <TableRow
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp">
+
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:text="Sexta-Feira"
+                            android:textColor="#FFF"
+                            android:textSize="22sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_wi_day_rain_wind" />
+
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:gravity="right"
+                            android:text="18º"
+                            android:textColor="#0FF"
+                            android:textSize="22sp" />
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:text="25º"
+                            android:textColor="#FFA500"
+                            android:textSize="22sp" />
+                    </TableRow>
+
+                    <View style="@style/DottedLine" />
+
+                </TableLayout>
+
+                <TableLayout>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp">
+
+                        <TextView
+                            android:text="5d"
+                            android:textColor="#FFF"
+                            android:textSize="18sp" />
+
+                        <View
+                            style="@style/VerticalDivider"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp" />
+
+                        <TextView
+                            android:layout_weight="6"
+                            android:text="10d"
+                            android:textColor="#888"
+                            android:textSize="18sp" />
+                    </TableRow>
+
+                </TableLayout>
+
+            </TableLayout> <!-- Fim do bloco dias da semana -->
+
+            <!-- Detalhes -->
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/rounded_border"
+                android:padding="5dp"
+                android:stretchColumns="0"
+                android:shrinkColumns="*">
+
+                <TableRow android:padding="10dp">
+
+                    <TextView
+                        android:text="Detalhes"
+                        android:textColor="#FFF"
+                        android:textSize="26sp" />
+                </TableRow>
+                <View
+                    style="@style/Divider"
+                    android:background="#FFF" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_wi_horizon_alt"
+                        android:layout_gravity="center"
+                        />
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:stretchColumns="*"
+                        android:padding="5dp">
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:text="Sens. Térmica"
+                                android:textColor="#FFF"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:text="29º"
+                                android:layout_gravity="right"
+                                android:textColor="#FFF"
+                                android:textSize="20sp" />
+                        </TableRow>
+                        <View style="@style/DottedLine" />
+
+                        <TableRow>
+                            <TextView
+                                android:text="Umidade"
+                                android:textColor="#FFF"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:text="67%"
+                                android:layout_gravity="right"
+                                android:textColor="#FFF"
+                                android:textSize="20sp" />
+                        </TableRow>
+                        <View style="@style/DottedLine" />
+
+                        <TableRow>
+                            <TextView
+                                android:text="Visibilidade"
+                                android:textColor="#FFF"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:text="1.5km"
+                                android:layout_gravity="right"
+                                android:textColor="#FFF"
+                                android:textSize="20sp" />
+                        </TableRow>
+                        <View style="@style/DottedLine" />
+
+                        <TableRow>
+                            <TextView
+                                android:text="Raios UV"
+                                android:textColor="#FFF"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:text="0"
+                                android:layout_gravity="right"
+                                android:textColor="#FFF"
+                                android:textSize="20sp" />
+                        </TableRow>
+
+                    </TableLayout>
+
+                </TableRow>
+            </TableLayout>
+
+        </TableLayout>
+    </ScrollView>
+
+
+</TableLayout>

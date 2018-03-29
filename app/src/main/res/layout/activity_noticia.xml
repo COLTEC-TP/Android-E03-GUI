@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="br.ufmg.coltec.tp.e03_layout.Noticia">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:padding="2dp"
+            android:textAlignment="center"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/subtitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:layout_below="@id/titulo"
+            android:padding="2dp"
+            />
+
+        <TextView
+            android:id="@+id/autor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textEnd"
+            android:textSize="20sp"
+            android:layout_below="@id/subtitulo"
+            android:padding="5dp"
+            />
+
+        <TextView
+            android:id="@+id/noticia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_below="@id/autor"
+            android:padding="10dp"
+            android:layout_marginBottom="50dp"
+            />
+
+        <ImageView
+            android:id="@+id/foto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:maxWidth="100dp"
+            android:maxHeight="100dp"
+            android:adjustViewBounds="true"
+            android:layout_below="@id/noticia"
+            android:src="@drawable/cicle"
+            />
+
+        <TextView
+            android:id="@+id/autor-data"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textSize="15sp"
+            android:layout_toEndOf="@id/foto"
+            android:layout_below="@id/noticia"
+            android:layout_margin="10dp"
+            />
+
+    </RelativeLayout>
+</ScrollView>
