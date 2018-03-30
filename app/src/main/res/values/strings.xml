@@ -1,3 +1,16 @@
 <resources>
-    <string name="app_name">E03 - Layout</string>
+    <string name="app_name">Meu App</string>
+    <string name="splash">Tela de Abertura</string>
+    <string name="notice">notiícia</string>
+    <string name="form">formulário</string>
+    <string name="forecast">previsão</string>
+    <string name="name">Nome:</string>
+    <string name="rate">Avalie este App</string>
+    <string name="comment">Deixe seu comentário aqui</string>
+    <string name="submit">Enviar</string>
+    <string name="confirm">Deseja confirmar o envio da avaliação?</string>
+    <string name="positive">SIM</string>
+    <string name="negative">NÃO</string>
+    <string name="rate_ok">Enviando</string>
+    <string name="rate_canceled">Avaliação cancelada</string>
 </resources>

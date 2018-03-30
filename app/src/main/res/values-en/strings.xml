@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My App</string>
+    <string name="splash">Splash Screen</string>
+    <string name="notice">notice</string>
+    <string name="form">form</string>
+    <string name="forecast">forecast</string>
+    <string name="name">Name:</string>
+    <string name="rate">Rate this App</string>
+    <string name="comment">Leave your comment here</string>
+    <string name="submit">submit</string>
+    <string name="confirm">Confirm sending the evaluation?</string>
+    <string name="positive">YES</string>
+    <string name="negative">NO</string>
+    <string name="rate_ok">Sending</string>
+    <string name="rate_canceled">Evaluation canceled</string>
+</resources>
