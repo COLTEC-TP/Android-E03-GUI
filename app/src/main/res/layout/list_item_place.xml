@@ -3,14 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="10dp">
+    android:layout_margin="10dp"
+    style="@style/itensDaLista"
+    android:duplicateParentState="true">
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/img_place_photo"
         android:src="@drawable/ic_launcher_background"/>
-
 
     <TextView
         android:layout_width="wrap_content"
@@ -30,6 +31,7 @@
         android:text="Este é um lugar qualquer que serve alguma coisa" />
 
     <RatingBar
+        android:id="@+id/rating_bar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@id/img_place_photo"
