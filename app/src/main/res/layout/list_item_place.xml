@@ -3,14 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="10dp">
+    android:padding="10dp">
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:id="@+id/img_place_photo"
         android:src="@drawable/ic_launcher_background"/>
-
 
     <TextView
         android:layout_width="wrap_content"
@@ -39,7 +38,8 @@
         android:isIndicator="true"
         android:numStars="5"
         android:rating="3"
-        android:stepSize="0.5" />
+        android:stepSize="0.5"
+        android:id="@+id/nota"/>
 
     <TextView
         android:layout_width="wrap_content"
