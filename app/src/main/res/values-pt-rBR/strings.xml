@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="titulo">Faça sua escolha</string>
+    <string name="noticia">Notícias</string>
+    <string name="tempo">Tempo</string>
+    <string name="formulario">Formulário</string>
+    <string name="tela">Tela carregameto </string>
+
+    <string name="nome">Nome :</string>
+    <string name="Email">E-mail :</string>
+    <string name="obs">Observações :</string>
+    <string name="nota">Nota</string>
+    <string name="mandarFormulario">Enviar Formulário</string>
+
+    <string name="aviso">Cuidado !</string>
+    <string name="sim">Sim</string>
+    <string name="cancelar">cancelar </string>
+    <string name="desejo"> Deseja enviar o furmulário ?</string>
+    <string name="enviado">Formulario enviado </string>
+    <string name="cancelado">Formulario não enviado </string>
+
+    <string name="dia"> Dia</string>
+    <string name="previsao">Previsão</string>
+    <string name="segunda">Segunda-Feira</string>
+    <string name="terca">Terça-Feira</string>
+    <string name="quarta">Quarta-Feira</string>
+    <string name="quinta">Quinta-Feira</string>
+    <string name="sexta">Sexta-feira</string>
+    <string name="sabado">Sabado</string>
+    <string name="domingo">Domingo</string>
+
+
+</resources>

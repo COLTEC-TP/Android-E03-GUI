@@ -19,7 +19,7 @@
         android:layout_marginLeft="15dp"
         android:textSize="20dp"
         android:id="@+id/txt_place_name"
-        android:text="Um lugar qualquer" />
+        android:text="Um lugar qualquer perto da disney" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -27,7 +27,7 @@
         android:layout_alignLeft="@id/txt_place_name"
         android:layout_below="@id/txt_place_name"
         android:id="@+id/txt_place_description"
-        android:text="Este é um lugar qualquer que serve alguma coisa" />
+        android:text="Lugar da Disney" />
 
     <RatingBar
         android:layout_width="wrap_content"
