@@ -20,9 +20,13 @@ public class listViewAdapter extends BaseAdapter {
     public listViewAdapter(Context context) {
         this.context = context;
         places = new ArrayList<>();
-        places.add(new Place("São Paulo", "pogchamp", 123, 4.0, 3));
-        places.add(new Place("Rio de Janeiro", "pogchamp", 321, 2.0, 5));
+        places.add(new Place("São Paulo", "Proximo", R.drawable.ic_launcher_background, 120.0, 3));
+        places.add(new Place("Rio de Janeiro", "Proximo", R.drawable.ic_launcher_background, 150.0, 4));
+        places.add(new Place("Salvador", "Proximo", R.drawable.ic_launcher_background, 110.0, 4));
+        places.add(new Place("Belo Horizonte", "Posição Atual", R.drawable.ic_launcher_background, 0.0, 5));
+        places.add(new Place("Acre", "Longe", R.drawable.ic_launcher_background, 222.0, 2));
     }
+
     @Override
     public int getCount() {
         return this.places.size();
@@ -43,7 +47,7 @@ public class listViewAdapter extends BaseAdapter {
 
         View newView = LayoutInflater.from(this.context).inflate(R.layout.list_item_place, viewGroup, false);
 
-        // recupera  campos do item
+        // Recupera
 
         ImageView image = newView .findViewById(R.id.img_place_photo);
         TextView name = newView.findViewById(R.id.txt_place_name);
@@ -51,7 +55,7 @@ public class listViewAdapter extends BaseAdapter {
         RatingBar ratingBar = newView.findViewById(R.id.rating_bar);
         TextView distance = newView.findViewById(R.id.txt_place_distance);
 
-        // define value cada campo
+        // Define value
 
         image.setImageResource(R.drawable.ic_launcher_background);
         name.setText(place.getName());
