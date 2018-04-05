@@ -5,4 +5,42 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="layout_photo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="layout_placeName">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_toRightOf">@id/img_place_photo</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+   <style name="layout_description">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignLeft">@id/txt_place_name</item>
+        <item name="android:layout_below">@id/txt_place_name</item>
+    </style>
+
+    <style name="layout_Bar" parent="android:Widget.DeviceDefault.RatingBar.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignBottom">@id/img_place_photo</item>
+        <item name="android:layout_alignLeft">@id/txt_place_name</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:isIndicator">true</item>
+        <item name="android:numStars">5</item>
+        <item name="android:rating">3</item>
+    </style>
+
+    <style name="layout_distance">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignBottom">@id/img_place_photo</item>
+    </style>
+
 </resources>
