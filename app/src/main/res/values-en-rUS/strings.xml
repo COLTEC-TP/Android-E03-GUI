@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="titulo">Make Your Choise</string>
+    <string name="noticia">News</string>
+    <string name="tempo">Weather</string>
+    <string name="formulario">Form</string>
+    <string name="tela">Splash Screen </string>
+    
+    <string name="nome">Name :</string>
+    <string name="Email">E-mail :</string>
+    <string name="obs">Comments :</string>
+    <string name="nota">Rate</string>
+    <string name="mandarFormulario">Send form</string>
+
+    <string name="aviso">Warning !</string>
+    <string name="sim">Yes</string>
+    <string name="cancelar">cancel </string>
+    <string name="desejo">Do you want to send form?</string>
+    <string name="enviado">Form Sended </string>
+    <string name="cancelado">Form dont sended </string>
+
+    <string name="dia"> Day</string>
+    <string name="previsao">forecast</string>
+    <string name="segunda">Monday</string>
+    <string name="terca">Tuesday</string>
+    <string name="quarta">Wednesday </string>
+    <string name="quinta">Thursday</string>
+    <string name="sexta">Friday</string>
+    <string name="sabado"> Saturday</string>
+    <string name="domingo">Sunday</string>
+
+</resources>
