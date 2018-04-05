@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="br.ufmg.coltec.tp.e03_adapters">
+    package="com.example.a2016951707.android_e03_gui">
 
     <application
         android:allowBackup="true"
@@ -16,6 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Place" />
+        <activity android:name=".ListaLugares"></activity>
     </application>
 
 </manifest>

@@ -1,4 +1,4 @@
-package br.ufmg.coltec.tp.e03_adapters;
+package com.example.a2016951707.android_e03_gui;
 
 /**
  * Created by jemaf on 07/03/18.
@@ -9,6 +9,7 @@ public class Place {
     private Integer photoId;    // id da foto do local
     private Double distance;    // distância (em km)
     private Double rate;        // nota (1 a 5)
+    private String Description;  // Descrição
 
     /**
      * Construtor
@@ -17,23 +18,26 @@ public class Place {
      * @param distance Distância do local em KM
      * @param rate Nota do local (1 a 5)
      */
-    public Place(String name, Integer photoId, Double distance, Double rate) {
+    public Place(String name, Integer photoId, Double distance, Double rate, String Description) {
         this.name = name;
         this.photoId = photoId;
         this.distance = distance;
         this.rate = rate;
+        this.Description = Description;
     }
 
     /**
      * Construtor padrão
      */
     public Place() {
-        this(null, null, null, null);
+        this(null, null, null, null, null);
     }
 
     public String getName() {
         return name;
     }
+
+    public String getDescription() {return Description;}
 
     public void setName(String name) {
         this.name = name;
