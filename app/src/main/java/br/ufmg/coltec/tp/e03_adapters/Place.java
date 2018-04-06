@@ -6,6 +6,7 @@ package br.ufmg.coltec.tp.e03_adapters;
 public class Place {
 
     private String name;        // nome do local
+    private String descricao;   // descricao do local
     private Integer photoId;    // id da foto do local
     private Double distance;    // distância (em km)
     private Double rate;        // nota (1 a 5)
@@ -13,12 +14,14 @@ public class Place {
     /**
      * Construtor
      * @param name nome do local
+     * @param descricao descricao do local
      * @param photoId ID da foto do local (Retirado do R.drawable)
      * @param distance Distância do local em KM
      * @param rate Nota do local (1 a 5)
      */
-    public Place(String name, Integer photoId, Double distance, Double rate) {
+    public Place(String name, String descricao, Integer photoId, Double distance, Double rate) {
         this.name = name;
+        this.descricao = descricao;
         this.photoId = photoId;
         this.distance = distance;
         this.rate = rate;
@@ -28,7 +31,7 @@ public class Place {
      * Construtor padrão
      */
     public Place() {
-        this(null, null, null, null);
+        this(null, null, null, null, null);
     }
 
     public String getName() {
@@ -37,6 +40,14 @@ public class Place {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getDescricao(){
+        return descricao;
+    }
+
+    public void setDescricao(String descricao){
+        this.descricao = descricao;
     }
 
     public Integer getPhotoId() {
