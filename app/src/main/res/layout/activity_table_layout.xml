@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.ufmg.coltec.tp.e03_layout.TableLayout">
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+
+            android:text="Belo Horizonte"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:id="@+id/cidade"
+            />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="10:05"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            />
+    </TableRow>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="35dp"
+        android:background="#4D0A065A">
+
+        <TableRow>
+            <TextView
+                android:layout_marginTop="40px"
+                android:text="Previsão"
+                android:textColor="#fff"
+                android:paddingLeft="20dp"
+                android:paddingTop="1px"
+                android:textSize="18dp"
+                android:layout_marginBottom="35px"
+                />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_marginTop="40px"
+                android:text="Segunda"
+                android:textColor="#fff"
+                android:paddingLeft="20dp"
+                android:paddingTop="1px"
+                android:layout_marginBottom="9dp"
+                android:textSize="18dp"
+                />
+            <ImageView
+                android:src="@drawable/ic_wi_rain_wind"
+                android:layout_marginTop="10dp"
+                android:paddingTop="1px"
+                android:layout_marginLeft="20dp"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                />
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:paddingTop="2px"
+                android:src="@drawable/ic_wi_direction_up" />
+            <TextView
+                android:text="28º"
+                android:textColor="#fff"
+                android:layout_marginTop="17dp"
+                />
+            <ImageView
+                android:src="@drawable/ic_wi_direction_down"
+                android:layout_marginTop="10dp"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
+                />
+            <TextView
+                android:text="18º"
+                android:textColor="#fff"
+                android:layout_marginTop="17dp"
+                />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_marginTop="40px"
+                android:text="Terça"
+                android:textColor="#fff"
+                android:paddingLeft="20dp"
+                android:paddingTop="1px"
+                android:layout_marginBottom="9dp"
+                android:textSize="18dp"
+                />
+            <ImageView
+                android:src="@drawable/ic_wi_rain_wind"
+                android:layout_marginTop="10dp"
+                android:paddingTop="1px"
+                android:layout_marginLeft="20dp"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                />
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:paddingTop="2px"
+                android:src="@drawable/ic_wi_direction_up" />
+            <TextView
+                android:text="27º"
+                android:textColor="#fff"
+                android:layout_marginTop="17dp"
+                />
+            <ImageView
+                android:src="@drawable/ic_wi_direction_down"
+                android:layout_marginTop="10dp"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
+                />
+            <TextView
+                android:text="19º"
+                android:textColor="#fff"
+                android:layout_marginTop="17dp"
+                />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_marginTop="40px"
+                android:text="Quarta"
+                android:textColor="#fff"
+                android:paddingLeft="20dp"
+                android:paddingTop="1px"
+                android:layout_marginBottom="10dp"
+                android:textSize="18dp"
+                />
+            <ImageView
+                android:src="@drawable/ic_wi_rain_wind"
+                android:layout_marginTop="10dp"
+                android:paddingTop="1px"
+                android:layout_marginLeft="20dp"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                />
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:paddingTop="2px"
+                android:src="@drawable/ic_wi_direction_up" />
+            <TextView
+                android:text="27º"
+                android:textColor="#fff"
+                android:layout_marginTop="17dp"
+                />
+            <ImageView
+                android:src="@drawable/ic_wi_direction_down"
+                android:layout_marginTop="10dp"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
+                />
+            <TextView
+                android:text="18º"
+                android:textColor="#fff"
+                android:layout_marginTop="17dp"
+                />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_marginTop="40px"
+                android:text="Quinta"
+                android:textColor="#fff"
+                android:paddingLeft="20dp"
+                android:paddingTop="1px"
+                android:layout_marginBottom="10dp"
+                android:textSize="18dp"
+                />
+            <ImageView
+                android:src="@drawable/ic_wi_rain_wind"
+                android:layout_marginTop="10dp"
+                android:paddingTop="1px"
+                android:layout_marginLeft="20dp"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                />
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:paddingTop="2px"
+                android:src="@drawable/ic_wi_direction_up" />
+            <TextView
+                android:text="26º"
+                android:textColor="#fff"
+                android:layout_marginTop="17dp"
+                />
+            <ImageView
+                android:src="@drawable/ic_wi_direction_down"
+                android:layout_marginTop="10dp"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
+                />
+            <TextView
+                android:text="17º"
+                android:textColor="#fff"
+                android:layout_marginTop="17dp"
+                />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_marginTop="40px"
+                android:text="Sexta"
+                android:textColor="#fff"
+                android:paddingLeft="20dp"
+                android:paddingTop="1px"
+                android:textSize="18dp"
+                />
+            <ImageView
+                android:src="@drawable/ic_wi_rain_wind"
+                android:layout_marginTop="10dp"
+                android:paddingTop="1px"
+                android:layout_marginLeft="20dp"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                />
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:paddingTop="2px"
+                android:src="@drawable/ic_wi_direction_up" />
+            <TextView
+                android:text="28º"
+                android:textColor="#fff"
+                android:layout_marginTop="17dp"
+                />
+            <ImageView
+                android:src="@drawable/ic_wi_direction_down"
+                android:layout_marginTop="10dp"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
+                />
+            <TextView
+                android:text="19º"
+                android:textColor="#fff"
+                android:layout_marginTop="17dp"
+                />
+        </TableRow>
+
+    </TableLayout>
+
+</TableLayout>

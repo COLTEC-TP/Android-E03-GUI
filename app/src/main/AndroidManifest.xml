@@ -16,6 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".RelativeLayout" />
+        <activity android:name=".TableLayout" />
+        <activity android:name=".LinearLayout"></activity>
     </application>
 
 </manifest>

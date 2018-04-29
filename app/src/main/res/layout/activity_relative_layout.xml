@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.ufmg.coltec.tp.e03_layout.RelativeLayout">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text=" Tecnologia vai mudar a
+        Construção Civil"
+        android:id="@+id/titulo"
+        android:textSize="30dp"
+        android:paddingTop="20dp"
+        android:paddingRight="10dp"
+        android:textColor="#f00"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titulo"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp"
+        android:text="Novas tecnologias já estão chegando no mercardo,
+      construtoras serão semelhantes à montadoras"
+        android:textColor="#000"
+        android:paddingTop="1dp"
+        android:id="@+id/subtitulo"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subtitulo"
+        android:layout_alignParentRight="true"
+        android:text="Autor: Em Movimento"
+        android:textSize="11dp"
+        android:paddingTop="2dp"
+        android:paddingRight="5dp"
+        android:id="@+id/autor"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/autor"
+        android:justificationMode="inter_word"
+        android:padding="10dp"
+        android:text="        As novas tecnologias vão começar a fazer auterações no mercado da construção civil a partir dos próximos anos, demanda de profissionais terá que se adaptar ao novo mercado.
+        Comparada à outras áreas do mercardo a engenharia civil brasileira ainda tem pouca influência e uso das novas tecnologias. Apartir dos próximos anos as construtoras vão começar a se assemelhar às montadoras de carro, o projeto ficará pronto e então será feita a montagem do prédio. Os fornecedores entregarão o material já pré preparado e técnicos especializados farão a montagem, acabou o tijolo sobre tijolo."
+        android:id="@+id/texto"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/texto"
+        android:layout_alignParentRight="true"
+        android:text="17/12/2017 20:39"
+        android:textSize="10dp"
+        android:paddingRight="5dp"
+        android:id="@+id/horario"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/subtitulo"
+        android:layout_below="@+id/horario"
+        android:layout_marginHorizontal="12dp"
+        android:src="@mipmap/ccr" />
+
+</RelativeLayout>
