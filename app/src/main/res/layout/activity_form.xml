@@ -64,35 +64,36 @@
         android:text="@string/form_note"
         android:textSize="20sp" />
 
-    <TableLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <TableRow android:gravity="center_horizontal">
-
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
             <RadioButton
                 android:id="@+id/entryNote1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:text="1" />
-
             <RadioButton
                 android:id="@+id/entryNote2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:text="2" />
-
             <RadioButton
                 android:id="@+id/entryNote3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:text="3" />
-
             <RadioButton
                 android:id="@+id/entryNote4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:text="4" />
-
             <RadioButton
                 android:id="@+id/entryNote5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:text="5" />
-
-        </TableRow>
-
-    </TableLayout>
+        </RadioGroup>
 
     <Button
         android:id="@+id/form_btn_send"

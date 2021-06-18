@@ -7,4 +7,174 @@
     android:layout_height="match_parent"
     tools:context=".WeatherActivity">
 
+    <TableLayout>
+        <TableRow>
+            <ImageView android:src="@drawable/ic_launcher_background" />
+            <ImageView android:src="@drawable/ic_launcher_background" />
+            <ImageView android:src="@drawable/ic_launcher_background" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Forecast"
+                android:textSize="30sp"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="___________________________"
+                />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout>
+        <TableRow>
+            <TextView
+                android:paddingHorizontal="20dp"
+                android:layout_width="wrap_content"
+                android:text="9:00"
+                android:textSize="20sp" />
+            <TextView
+                android:paddingHorizontal="20dp"
+                android:layout_width="wrap_content"
+                android:text="10:00"
+                android:textSize="20sp" />
+            <TextView
+                android:paddingHorizontal="20dp"
+                android:layout_width="wrap_content"
+                android:text="11:00"
+                android:textSize="20sp" />
+            <TextView
+                android:paddingHorizontal="20dp"
+                android:layout_width="wrap_content"
+                android:text="12:00"
+                android:textSize="20sp" />
+            <TextView
+                android:paddingHorizontal="20dp"
+                android:layout_width="wrap_content"
+                android:text="13:00"
+                android:textSize="20sp" />
+        </TableRow>
+        <TableRow>
+            <ImageView android:src="@drawable/ic_launcher_background" />
+            <ImageView android:src="@drawable/ic_launcher_background" />
+            <ImageView android:src="@drawable/ic_launcher_background" />
+            <ImageView android:src="@drawable/ic_launcher_background" />
+            <ImageView android:src="@drawable/ic_launcher_background" />
+        </TableRow>
+    </TableLayout>
+    <TableLayout>
+        <TableRow>
+            <TextView
+                android:paddingHorizontal="20dp"
+                android:layout_width="wrap_content"
+                android:text="Thursday"
+                android:textSize="20sp" />
+            <ImageView android:src="@drawable/ic_launcher_background" />
+            <TextView
+                android:paddingHorizontal="20dp"
+                android:layout_width="wrap_content"
+                android:text="68º"
+                android:textSize="20sp" />
+            <TextView
+                android:paddingHorizontal="20dp"
+                android:layout_width="wrap_content"
+                android:text="59º"
+                android:textSize="20sp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:paddingHorizontal="20dp"
+                android:layout_width="wrap_content"
+                android:text="Thursday"
+                android:textSize="20sp" />
+            <ImageView android:src="@drawable/ic_launcher_background" />
+            <TextView
+                android:paddingHorizontal="20dp"
+                android:layout_width="wrap_content"
+                android:text="68º"
+                android:textSize="20sp" />
+            <TextView
+                android:paddingHorizontal="20dp"
+                android:layout_width="wrap_content"
+                android:text="59º"
+                android:textSize="20sp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:paddingHorizontal="20dp"
+                android:layout_width="wrap_content"
+                android:text="Thursday"
+                android:textSize="20sp" />
+            <ImageView android:src="@drawable/ic_launcher_background" />
+            <TextView
+                android:paddingHorizontal="20dp"
+                android:layout_width="wrap_content"
+                android:text="68º"
+                android:textSize="20sp" />
+            <TextView
+                android:paddingHorizontal="20dp"
+                android:layout_width="wrap_content"
+                android:text="59º"
+                android:textSize="20sp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:paddingHorizontal="20dp"
+                android:layout_width="wrap_content"
+                android:text="Thursday"
+                android:textSize="20sp" />
+            <ImageView android:src="@drawable/ic_launcher_background" />
+            <TextView
+                android:paddingHorizontal="20dp"
+                android:layout_width="wrap_content"
+                android:text="68º"
+                android:textSize="20sp" />
+            <TextView
+                android:paddingHorizontal="20dp"
+                android:layout_width="wrap_content"
+                android:text="59º"
+                android:textSize="20sp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:paddingHorizontal="20dp"
+                android:layout_width="wrap_content"
+                android:text="Thursday"
+                android:textSize="20sp" />
+            <ImageView android:src="@drawable/ic_launcher_background" />
+            <TextView
+                android:paddingHorizontal="20dp"
+                android:layout_width="wrap_content"
+                android:text="68º"
+                android:textSize="20sp" />
+            <TextView
+                android:paddingHorizontal="20dp"
+                android:layout_width="wrap_content"
+                android:text="59º"
+                android:textSize="20sp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:paddingHorizontal="20dp"
+                android:layout_width="wrap_content"
+                android:text="Thursday"
+                android:textSize="20sp" />
+            <ImageView android:src="@drawable/ic_launcher_background" />
+            <TextView
+                android:paddingHorizontal="20dp"
+                android:layout_width="wrap_content"
+                android:text="68º"
+                android:textSize="20sp" />
+            <TextView
+                android:paddingHorizontal="20dp"
+                android:layout_width="wrap_content"
+                android:text="59º"
+                android:textSize="20sp" />
+        </TableRow>
+    </TableLayout>
 </TableLayout>
