@@ -9,4 +9,5 @@
     <string name="form_comment">Comentário</string>
     <string name="form_title">Formulário</string>
     <string name="form_note">Nota</string>
+    <string name="form_toast">Enviado!</string>
 </resources>

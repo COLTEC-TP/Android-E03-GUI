@@ -1,11 +1,10 @@
 package br.ufmg.coltec.tp.e03_layout;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 
-public class MainActivity extends Activity {
+public class MainActivity extends DebugActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

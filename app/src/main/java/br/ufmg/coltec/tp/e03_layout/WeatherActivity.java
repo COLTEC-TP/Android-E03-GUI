@@ -1,9 +1,8 @@
 package br.ufmg.coltec.tp.e03_layout;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class WeatherActivity extends AppCompatActivity {
+public class WeatherActivity extends DebugActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -24,10 +24,10 @@
                 />
         </TableRow>
         <TableRow>
-            <TextView
+            <View
                 android:layout_width="wrap_content"
-                android:text="___________________________"
-                />
+                android:layout_height="2dp"
+                android:background="@android:color/darker_gray" />
         </TableRow>
     </TableLayout>
 
