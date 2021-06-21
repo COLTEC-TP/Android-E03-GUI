@@ -13,11 +13,21 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         Button frameLayout = findViewById(R.id.buttonFrameLayout);
+        Button relativeLayout = findViewById(R.id.buttonRelativeLayout);
+
 
         frameLayout.setOnClickListener(view -> {
             Intent intent = new Intent(MainActivity.this, FrameLayout.class);
             startActivity(intent);
         });
+
+        relativeLayout.setOnClickListener(view -> {
+            Intent intent = new Intent(MainActivity.this, RelativeLayout.class);
+            startActivity(intent);
+        });
+
+
+
 
     }
 }
