@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">E03 - Layout</string>
+    <string name="news">Notícias</string>
+    <string name="weather">Previsão do Tempo</string>
+    <string name="form">Formulário</string>
+    <string name="form_btn_send">Enviar</string>
+    <string name="form_name">Nome</string>
+    <string name="form_email">e-mail</string>
+    <string name="form_comment">Comentário</string>
+    <string name="form_title">Formulário</string>
+    <string name="form_note">Nota</string>
+    <string name="form_toast">Enviado!</string>
 </resources>
