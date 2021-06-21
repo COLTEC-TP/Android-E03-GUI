@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/ic_launcher_foreground"
+    tools:context=".WeatherActivity">
+
+    <TableLayout>
+        <TableRow>
+            <ImageView
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="0.1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitStart"
+                android:src="@drawable/ic_launcher_background" />
+            <TableLayout>
+                <TableRow>
+                    <TextView
+                        android:layout_height="25dp"
+                        android:layout_weight="0.2"
+                        android:text="@string/weather_city"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_height="25dp"
+                        android:layout_weight="0.2"
+                        android:text="@string/weather_actual_time"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+                </TableRow>
+            </TableLayout>
+            <ImageView
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="0.1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitEnd"
+                android:src="@drawable/ic_launcher_background" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout android:background="@color/transparent_black">
+        <TableLayout>
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="@string/weather_title"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+            </TableRow>
+            <TableRow>
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="2dp"
+                    android:background="@android:color/darker_gray" />
+            </TableRow>
+        </TableLayout>
+        <TableLayout>
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:paddingHorizontal="10dp"
+                    android:text="@string/weather_time1"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:paddingHorizontal="10dp"
+                    android:text="@string/weather_time2"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:paddingHorizontal="10dp"
+                    android:text="@string/weather_time3"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:paddingHorizontal="10dp"
+                    android:text="@string/weather_time4"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:paddingHorizontal="10dp"
+                    android:text="@string/weather_time5"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:paddingHorizontal="10dp"
+                    android:text="@string/weather_time6"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+            </TableRow>
+            <TableRow>
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_launcher_background" />
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_launcher_background" />
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_launcher_background" />
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_launcher_background" />
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_launcher_background" />
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_launcher_background" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="@string/weather_temp1"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="@string/weather_temp2"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="@string/weather_temp3"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="@string/weather_temp4"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="@string/weather_temp5"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="@string/weather_temp6"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+            </TableRow>
+        </TableLayout>
+        <TableLayout>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.1"
+                    android:paddingHorizontal="10dp"
+                    android:text="@string/weather_weekend1"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="0.1"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_launcher_background" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:paddingHorizontal="20dp"
+                    android:text="@string/weather_weekend1_max"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:paddingHorizontal="20dp"
+                    android:text="@string/weather_weekend1_min"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.1"
+                    android:paddingHorizontal="10dp"
+                    android:text="@string/weather_weekend2"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="0.1"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_launcher_background" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:paddingHorizontal="20dp"
+                    android:text="@string/weather_weekend2_max"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:paddingHorizontal="20dp"
+                    android:text="@string/weather_weekend2_min"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.1"
+                    android:paddingHorizontal="10dp"
+                    android:text="@string/weather_weekend3"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="0.1"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_launcher_background" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:paddingHorizontal="20dp"
+                    android:text="@string/weather_weekend3_max"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:paddingHorizontal="20dp"
+                    android:text="@string/weather_weekend3_min"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.1"
+                    android:paddingHorizontal="10dp"
+                    android:text="@string/weather_weekend4"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="0.1"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_launcher_background" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:paddingHorizontal="20dp"
+                    android:text="@string/weather_weekend4_max"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:paddingHorizontal="20dp"
+                    android:text="@string/weather_weekend4_min"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.1"
+                    android:paddingHorizontal="10dp"
+                    android:text="@string/weather_weekend5"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="0.1"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_launcher_background" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:paddingHorizontal="20dp"
+                    android:text="@string/weather_weekend5_max"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:paddingHorizontal="20dp"
+                    android:text="@string/weather_weekend5_min"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+            </TableRow>
+        </TableLayout>
+    </TableLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="20dp" />
+    <TableLayout android:background="@color/transparent_black">
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="@string/weather_details"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+        </TableRow>
+        <TableRow>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:background="@android:color/darker_gray" />
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:layout_height="120dp"
+                android:layout_width="wrap_content"
+                android:scaleType="fitStart"
+                android:layout_margin="15dp"
+                android:src="@drawable/ic_launcher_background" />
+            <TableLayout>
+                <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:paddingHorizontal="10dp"
+                    android:text="@string/weather_feels_like"
+                    android:textColor="@color/white"
+                    android:textAlignment="viewStart"
+                    android:textSize="15sp" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:paddingHorizontal="10dp"
+                        android:text="61º"
+                        android:textColor="@color/white"
+                        android:textAlignment="viewEnd"
+                        android:textSize="15sp" />
+                </TableRow>
+            </TableLayout>
+        </TableRow>
+    </TableLayout>
+</TableLayout>
