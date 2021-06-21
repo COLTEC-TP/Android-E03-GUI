@@ -9,9 +9,7 @@
     tools:context=".WeatherActivity">
 
     <TableLayout>
-
         <TableRow>
-
             <ImageView
                 android:layout_height="50dp"
                 android:layout_marginHorizontal="10dp"
@@ -20,32 +18,26 @@
                 android:adjustViewBounds="true"
                 android:scaleType="fitStart"
                 android:src="@drawable/ic_launcher_background" />
-
             <TableLayout>
-
                 <TableRow>
-
                     <TextView
                         android:layout_height="25dp"
                         android:layout_weight="0.2"
-                        android:text="Los Angeles"
+                        android:text="@string/weather_city"
                         android:textAlignment="center"
-                        android:textColor="#FF000000"
+                        android:textColor="@color/black"
                         android:textSize="20sp" />
                 </TableRow>
-
                 <TableRow>
-
                     <TextView
                         android:layout_height="25dp"
                         android:layout_weight="0.2"
-                        android:text="8:16 PDT"
+                        android:text="@string/weather_actual_time"
                         android:textAlignment="center"
-                        android:textColor="#FF000000"
-                        android:textSize="10sp" />
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
                 </TableRow>
             </TableLayout>
-
             <ImageView
                 android:layout_height="50dp"
                 android:layout_marginHorizontal="10dp"
@@ -58,176 +50,144 @@
     </TableLayout>
 
     <TableLayout android:background="@color/transparent_black">
-
         <TableLayout>
-
             <TableRow>
-
                 <TextView
                     android:layout_width="wrap_content"
-                    android:text="Forecast"
+                    android:text="@string/weather_title"
                     android:textColor="@color/white"
                     android:textSize="25sp" />
             </TableRow>
-
             <TableRow>
-
                 <View
                     android:layout_width="wrap_content"
                     android:layout_height="2dp"
                     android:background="@android:color/darker_gray" />
             </TableRow>
         </TableLayout>
-
         <TableLayout>
-
             <TableRow>
-
                 <TextView
                     android:layout_width="wrap_content"
                     android:paddingHorizontal="10dp"
-                    android:text="9:00"
+                    android:text="@string/weather_time1"
                     android:textColor="@color/white"
                     android:textSize="20sp" />
-
                 <TextView
                     android:layout_width="wrap_content"
                     android:paddingHorizontal="10dp"
-                    android:text="10:00"
+                    android:text="@string/weather_time2"
                     android:textColor="@color/white"
                     android:textSize="20sp" />
-
                 <TextView
                     android:layout_width="wrap_content"
                     android:paddingHorizontal="10dp"
-                    android:text="11:00"
+                    android:text="@string/weather_time3"
                     android:textColor="@color/white"
                     android:textSize="20sp" />
-
                 <TextView
                     android:layout_width="wrap_content"
                     android:paddingHorizontal="10dp"
-                    android:text="12:00"
+                    android:text="@string/weather_time4"
                     android:textColor="@color/white"
                     android:textSize="20sp" />
-
                 <TextView
                     android:layout_width="wrap_content"
                     android:paddingHorizontal="10dp"
-                    android:text="13:00"
+                    android:text="@string/weather_time5"
                     android:textColor="@color/white"
                     android:textSize="20sp" />
-
                 <TextView
                     android:layout_width="wrap_content"
                     android:paddingHorizontal="10dp"
-                    android:text="14:00"
+                    android:text="@string/weather_time6"
                     android:textColor="@color/white"
                     android:textSize="20sp" />
             </TableRow>
-
             <TableRow>
-
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:scaleType="fitXY"
                     android:src="@drawable/ic_launcher_background" />
-
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:scaleType="fitXY"
                     android:src="@drawable/ic_launcher_background" />
-
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:scaleType="fitXY"
                     android:src="@drawable/ic_launcher_background" />
-
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:scaleType="fitXY"
                     android:src="@drawable/ic_launcher_background" />
-
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:scaleType="fitXY"
                     android:src="@drawable/ic_launcher_background" />
-
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:scaleType="fitXY"
                     android:src="@drawable/ic_launcher_background" />
             </TableRow>
-
             <TableRow>
-
                 <TextView
                     android:layout_width="wrap_content"
-                    android:text="63º"
+                    android:text="@string/weather_temp1"
                     android:textAlignment="center"
                     android:textColor="@color/white"
-                    android:textSize="10sp" />
-
+                    android:textSize="12sp" />
                 <TextView
                     android:layout_width="wrap_content"
-                    android:text="64º"
+                    android:text="@string/weather_temp2"
                     android:textAlignment="center"
                     android:textColor="@color/white"
-                    android:textSize="10sp" />
-
+                    android:textSize="12sp" />
                 <TextView
                     android:layout_width="wrap_content"
-                    android:text="66º"
+                    android:text="@string/weather_temp3"
                     android:textAlignment="center"
                     android:textColor="@color/white"
-                    android:textSize="10sp" />
-
+                    android:textSize="12sp" />
                 <TextView
                     android:layout_width="wrap_content"
-                    android:text="67º"
+                    android:text="@string/weather_temp4"
                     android:textAlignment="center"
                     android:textColor="@color/white"
-                    android:textSize="10sp" />
-
+                    android:textSize="12sp" />
                 <TextView
                     android:layout_width="wrap_content"
-                    android:text="68º"
+                    android:text="@string/weather_temp5"
                     android:textAlignment="center"
                     android:textColor="@color/white"
-                    android:textSize="10sp" />
-
+                    android:textSize="12sp" />
                 <TextView
                     android:layout_width="wrap_content"
-                    android:text="68º"
+                    android:text="@string/weather_temp6"
                     android:textAlignment="center"
                     android:textColor="@color/white"
-                    android:textSize="10sp" />
+                    android:textSize="12sp" />
             </TableRow>
         </TableLayout>
-
         <TableLayout>
-
             <View
                 android:layout_width="wrap_content"
                 android:layout_height="1dp"
                 android:background="@android:color/darker_gray" />
-
             <TableRow>
-
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_weight="0.1"
                     android:paddingHorizontal="10dp"
-                    android:text="Thursday"
+                    android:text="@string/weather_weekend1"
                     android:textColor="@color/white"
                     android:textSize="20sp" />
-
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
@@ -238,7 +198,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:paddingHorizontal="20dp"
-                    android:text="68º"
+                    android:text="@string/weather_weekend1_max"
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     android:textSize="20sp" />
@@ -246,7 +206,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:paddingHorizontal="20dp"
-                    android:text="59º"
+                    android:text="@string/weather_weekend1_min"
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     android:textSize="20sp" />
@@ -263,7 +223,7 @@
                     android:layout_width="wrap_content"
                     android:layout_weight="0.1"
                     android:paddingHorizontal="10dp"
-                    android:text="Friday"
+                    android:text="@string/weather_weekend2"
                     android:textColor="@color/white"
                     android:textSize="20sp" />
 
@@ -277,7 +237,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:paddingHorizontal="20dp"
-                    android:text="68º"
+                    android:text="@string/weather_weekend2_max"
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     android:textSize="20sp" />
@@ -285,7 +245,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:paddingHorizontal="20dp"
-                    android:text="60º"
+                    android:text="@string/weather_weekend2_min"
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     android:textSize="20sp" />
@@ -302,7 +262,7 @@
                     android:layout_width="wrap_content"
                     android:layout_weight="0.1"
                     android:paddingHorizontal="10dp"
-                    android:text="Saturday"
+                    android:text="@string/weather_weekend3"
                     android:textColor="@color/white"
                     android:textSize="20sp" />
 
@@ -316,7 +276,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:paddingHorizontal="20dp"
-                    android:text="69º"
+                    android:text="@string/weather_weekend3_max"
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     android:textSize="20sp" />
@@ -324,7 +284,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:paddingHorizontal="20dp"
-                    android:text="59º"
+                    android:text="@string/weather_weekend3_min"
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     android:textSize="20sp" />
@@ -341,7 +301,7 @@
                     android:layout_width="wrap_content"
                     android:layout_weight="0.1"
                     android:paddingHorizontal="10dp"
-                    android:text="Sunday"
+                    android:text="@string/weather_weekend4"
                     android:textColor="@color/white"
                     android:textSize="20sp" />
 
@@ -355,7 +315,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:paddingHorizontal="20dp"
-                    android:text="78º"
+                    android:text="@string/weather_weekend4_max"
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     android:textSize="20sp" />
@@ -363,7 +323,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:paddingHorizontal="20dp"
-                    android:text="57º"
+                    android:text="@string/weather_weekend4_min"
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     android:textSize="20sp" />
@@ -380,7 +340,7 @@
                     android:layout_width="wrap_content"
                     android:layout_weight="0.1"
                     android:paddingHorizontal="10dp"
-                    android:text="Monday"
+                    android:text="@string/weather_weekend5"
                     android:textColor="@color/white"
                     android:textSize="20sp" />
 
@@ -394,7 +354,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:paddingHorizontal="20dp"
-                    android:text="81º"
+                    android:text="@string/weather_weekend5_max"
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     android:textSize="20sp" />
@@ -402,37 +362,30 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:paddingHorizontal="20dp"
-                    android:text="61º"
+                    android:text="@string/weather_weekend5_min"
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     android:textSize="20sp" />
             </TableRow>
         </TableLayout>
     </TableLayout>
-
     <View
         android:layout_width="wrap_content"
         android:layout_height="20dp" />
-
     <TableLayout android:background="@color/transparent_black">
-
         <TableRow>
-
             <TextView
                 android:layout_width="wrap_content"
-                android:text="Details"
+                android:text="@string/weather_details"
                 android:textColor="@color/white"
                 android:textSize="25sp" />
         </TableRow>
-
         <TableRow>
-
             <View
                 android:layout_width="wrap_content"
                 android:layout_height="2dp"
                 android:background="@android:color/darker_gray" />
         </TableRow>
-
         <TableRow>
             <ImageView
                 android:layout_height="120dp"
@@ -445,7 +398,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:paddingHorizontal="10dp"
-                    android:text="Feels like"
+                    android:text="@string/weather_feels_like"
                     android:textColor="@color/white"
                     android:textAlignment="viewStart"
                     android:textSize="15sp" />

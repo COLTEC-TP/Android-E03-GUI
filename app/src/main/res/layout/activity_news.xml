@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
-        android:text="Título da notícia"
+        android:text="@string/news_title"
         android:textSize="40sp" />
     <TextView
         android:id="@+id/text_subtitle"
@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/text_title"
         android:layout_centerInParent="true"
-        android:text="Subtítulo da notícia"
+        android:text="@string/news_subtitle"
         android:textSize="25sp" />
     <TextView
         android:id="@+id/text_author"
@@ -30,14 +30,14 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/text_subtitle"
         android:layout_alignParentEnd="true"
-        android:text="Nome do autor"
+        android:text="@string/news_author_name"
         android:textSize="15sp" />
     <TextView
         android:id="@+id/text_news"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/text_author"
-        android:text="Corpo da notícia"
+        android:text="@string/news_body"
         android:textSize="20sp" />
     <TextView
         android:id="@+id/text_time"
@@ -45,7 +45,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/text_news"
         android:layout_alignParentEnd="true"
-        android:text="Hora da postagem"
+        android:text="@string/news_time"
         android:textSize="15sp" />
     <ImageView
         android:id="@+id/photo_author"
@@ -60,7 +60,7 @@
         android:layout_toEndOf="@+id/photo_author"
         android:layout_below="@+id/text_time"
         android:layout_alignParentEnd="true"
-        android:text="Nome do autor"
+        android:text="@string/news_author_name"
         android:textSize="15sp" />
     <TextView
         android:id="@+id/text_author_email"
@@ -69,6 +69,6 @@
         android:layout_toEndOf="@+id/photo_author"
         android:layout_below="@+id/text_author_name"
         android:layout_alignParentEnd="true"
-        android:text="email do autor"
+        android:text="@string/news_author_email"
         android:textSize="15sp" />
 </RelativeLayout>
