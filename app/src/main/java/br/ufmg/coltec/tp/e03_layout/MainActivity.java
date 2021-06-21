@@ -14,7 +14,7 @@ public class MainActivity extends Activity {
 
         Button frameLayout = findViewById(R.id.buttonFrameLayout);
         Button relativeLayout = findViewById(R.id.buttonRelativeLayout);
-
+        Button tableLayout = findViewById(R.id.buttonTableLayout);
 
         frameLayout.setOnClickListener(view -> {
             Intent intent = new Intent(MainActivity.this, FrameLayout.class);
@@ -26,8 +26,9 @@ public class MainActivity extends Activity {
             startActivity(intent);
         });
 
-
-
-
+        tableLayout.setOnClickListener(view -> {
+            Intent intent = new Intent(MainActivity.this, TableLayout.class);
+            startActivity(intent);
+        });
     }
 }
