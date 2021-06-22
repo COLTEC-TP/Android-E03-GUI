@@ -40,4 +40,8 @@
     <string name="txt_linear_nota">Nota:</string>
     <string name="txt_linear_btn">Submeter</string>
     <string name="txt_linear_nota_hint">Entre com um número de 1 a 5</string>
+    <string name="txt_btn_formulario_main">clique para ver o formulário</string>
+    <string name="txt_btn_noticia_main">clique para ver a notícia</string>
+    <string name="txt_btn_previsao_main">clique para ver a previsão do tempo</string>
+    <string name="txt_btn_splash_main">clique para ver a splash screen</string>
 </resources>
