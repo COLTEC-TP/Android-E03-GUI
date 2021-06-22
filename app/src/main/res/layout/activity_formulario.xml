@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FormularioActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_linear_nome"
+        android:textSize="@dimen/dimens_linear_txt"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/dimens_linear_txt"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_linear_email"
+        android:textSize="@dimen/dimens_linear_txt" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/dimens_linear_txt"
+        android:inputType="textEmailAddress"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_linear_comentario"
+        android:textSize="@dimen/dimens_linear_txt"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/dimens_linear_txt"
+        android:layout_weight="1"
+        android:gravity="top"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_linear_nota"
+        android:textSize="@dimen/dimens_linear_txt"/>
+
+    <EditText
+        android:id="@+id/txt_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/dimens_linear_txt"
+        android:inputType="number"
+        android:hint="@string/txt_linear_nota_hint"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_linear_btn"
+        android:textSize="@dimen/dimens_linear_txt"/>
+</LinearLayout>

@@ -34,4 +34,10 @@
     <string name="txt_indice">5d | 10d</string>
     <string name="txt_cidade">Cidade</string>
     <string name="txt_btn">Btn</string>
+    <string name="txt_linear_nome">Nome:</string>
+    <string name="txt_linear_email">E-mail:</string>
+    <string name="txt_linear_comentario">Comentário:</string>
+    <string name="txt_linear_nota">Nota:</string>
+    <string name="txt_linear_btn">Submeter</string>
+    <string name="txt_linear_nota_hint">Entre com um número de 1 a 5</string>
 </resources>

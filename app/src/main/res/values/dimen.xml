@@ -12,5 +12,6 @@
     <dimen name="dimens_hora">12dp</dimen>
     <dimen name="dimens_previsao">20dp</dimen>
     <dimen name="dimens_layout1">43dp</dimen>
+    <dimen name="dimens_linear_txt">20dp</dimen>
 
 </resources>
