@@ -1,8 +1,7 @@
 package br.ufmg.coltec.tp.e03_layout;
 
 import android.app.Activity;
-import android.content.Intent;
-import android.os.Handler;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -10,14 +9,12 @@ import android.view.WindowManager;
 
 import static android.view.View.SYSTEM_UI_FLAG_HIDE_NAVIGATION;
 
-public class SplashActivity extends Activity {
-
-    Handler handler;
+public class PrevisaoTempoActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_splash);
+        setContentView(R.layout.activity_previsao_tempo);
 
         getActionBar().hide();
 

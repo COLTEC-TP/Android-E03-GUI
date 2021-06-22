@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/dimens_padding_dias"
+    android:shrinkColumns="0,1,2,3,4,5"
+    android:layout_alignParentBottom="true"
+    tools:context=".PrevisaoTempoActivity">
+
+    <TableRow>
+        <Button
+            android:layout_width="@dimen/dimens_padding_dias"
+            android:layout_height="match_parent"
+            android:text="@string/txt_btn"
+            android:textSize="@dimen/dimens_hora">
+        </Button>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="4">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/txt_cidade"
+                android:textSize="@dimen/dimens_txt_dias"
+                android:gravity="center">
+            </EditText>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/txt_horas"
+                android:textSize="@dimen/dimens_hora"
+                android:gravity="center"
+                android:inputType="time">
+            </EditText>
+        </TableLayout>
+        <Button
+            android:layout_width="@dimen/dimens_padding_dias"
+            android:layout_height="match_parent"
+            android:text="@string/txt_btn"
+            android:textSize="@dimen/dimens_hora">
+        </Button>
+    </TableRow>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_previsao"
+        android:textSize="@dimen/dimens_previsao"
+        android:paddingTop="@dimen/dimens_hora">
+    </TextView>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/txt_hora1"
+                android:textSize="@dimen/dimens_hora"
+                android:inputType="time"
+                android:gravity="center">
+            </EditText>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dimens_padding_dias"
+                android:src="@mipmap/ic_launcher">
+            </ImageView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_graus"
+                android:textSize="@dimen/dimens_hora"
+                android:gravity="center">
+            </EditText>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/txt_hora2"
+                android:textSize="@dimen/dimens_hora"
+                android:inputType="time"
+                android:gravity="center">
+            </EditText>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:padding="@dimen/dimens_padding_dias">
+            </ImageView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_graus"
+                android:textSize="@dimen/dimens_hora"
+                android:gravity="center" >
+            </EditText>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/txt_hora3"
+                android:textSize="@dimen/dimens_hora"
+                android:inputType="time"
+                android:gravity="center">
+            </EditText>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:padding="@dimen/dimens_padding_dias">
+            </ImageView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_graus"
+                android:textSize="@dimen/dimens_hora"
+                android:gravity="center" >
+            </EditText>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/txt_hora4"
+                android:textSize="@dimen/dimens_hora"
+                android:inputType="time"
+                android:gravity="center">
+            </EditText>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:padding="@dimen/dimens_padding_dias">
+            </ImageView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_graus"
+                android:textSize="@dimen/dimens_hora"
+                android:gravity="center" >
+            </EditText>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/txt_hora5"
+                android:textSize="@dimen/dimens_hora"
+                android:inputType="time"
+                android:gravity="center">
+            </EditText>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:padding="@dimen/dimens_padding_dias">
+            </ImageView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_graus"
+                android:textSize="@dimen/dimens_hora"
+                android:gravity="center" >
+            </EditText>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/txt_hora6"
+                android:textSize="@dimen/dimens_hora"
+                android:inputType="time"
+                android:gravity="center">
+            </EditText>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:padding="@dimen/dimens_padding_dias">
+            </ImageView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_graus"
+                android:textSize="@dimen/dimens_hora"
+                android:gravity="center" >
+            </EditText>
+        </TableLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/dimens_hora">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/txt_dia1"
+            android:layout_span="2" >
+        </EditText>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_launcher"
+            android:layout_span="2" >
+        </ImageView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_graus"
+            android:textSize="@dimen/dimens_txt_dias"
+            android:gravity="center" >
+        </EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_graus"
+            android:textSize="@dimen/dimens_txt_dias"
+            android:gravity="center" >
+        </EditText>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/txt_dia2"
+            android:layout_span="2" >
+        </EditText>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_launcher"
+            android:layout_span="2" >
+        </ImageView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_graus"
+            android:textSize="@dimen/dimens_txt_dias"
+            android:gravity="center" >
+        </EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_graus"
+            android:textSize="@dimen/dimens_txt_dias"
+            android:gravity="center" >
+        </EditText>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/txt_dia3"
+            android:layout_span="2" >
+        </EditText>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_launcher"
+            android:layout_span="2" >
+        </ImageView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_graus"
+            android:textSize="@dimen/dimens_txt_dias"
+            android:gravity="center" >
+        </EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_graus"
+            android:textSize="@dimen/dimens_txt_dias"
+            android:gravity="center" >
+        </EditText>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/txt_dia4"
+            android:layout_span="2" >
+        </EditText>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_launcher"
+            android:layout_span="2" >
+        </ImageView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_graus"
+            android:textSize="@dimen/dimens_txt_dias"
+            android:gravity="center" >
+        </EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_graus"
+            android:textSize="@dimen/dimens_txt_dias"
+            android:gravity="center" >
+        </EditText>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/txt_dia5"
+            android:layout_span="2" >
+        </EditText>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_launcher"
+            android:layout_span="2" >
+        </ImageView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_graus"
+            android:textSize="@dimen/dimens_txt_dias"
+            android:inputType=""
+            android:gravity="center" >
+        </EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_graus"
+            android:textSize="@dimen/dimens_txt_dias"
+            android:gravity="center" >
+        </EditText>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/dimens_hora"
+            android:text="@string/txt_indice">
+        </TextView>
+    </TableRow>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_detalhes"
+        android:textSize="@dimen/dimens_txt_dias"
+        android:paddingTop="@dimen/dimens_hora">
+    </TextView>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_span="2"
+            android:src="@mipmap/ic_launcher">
+        </ImageView>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_span="4"
+            android:layout_weight="1">
+            <TableRow>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/dimens_hora"
+                    android:text="@string/txt_sensacao"
+                    android:textSize="@dimen/dimens_hora"
+                    android:layout_weight="3">
+                </TextView>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_graus"
+                    android:textSize="@dimen/dimens_txt_dias"
+                    android:textAlignment="center"
+                    android:layout_weight="1">
+                </EditText>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/txt_humidade"
+                    android:textSize="@dimen/dimens_hora"
+                    android:paddingLeft="@dimen/dimens_hora"
+                    android:layout_weight="3">
+                </TextView>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sbl_humidade"
+                    android:textSize="@dimen/dimens_txt_dias"
+                    android:textAlignment="center"
+                    android:layout_weight="1">
+                </EditText>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/txt_visibilidade"
+                    android:textSize="@dimen/dimens_hora"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/dimens_hora"
+                    android:layout_weight="3">
+                </TextView>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sbl_visibilidade"
+                    android:textSize="@dimen/dimens_txt_dias"
+                    android:textAlignment="center"
+                    android:layout_weight="1">
+                </EditText>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/txt_indiceuv"
+                    android:textSize="@dimen/dimens_hora"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/dimens_hora"
+                    android:layout_weight="3">
+                </TextView>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sbl_indiceuv"
+                    android:textSize="@dimen/dimens_txt_dias"
+                    android:textAlignment="center"
+                    android:layout_weight="1">
+                </EditText>
+            </TableRow>
+        </TableLayout>
+    </TableRow>
+
+</TableLayout>
