@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NoticiaActivity">
+
+    <EditText
+        android:id="@+id/noticia_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/txt_noticia_titulo"
+        android:textSize="@dimen/dimens_noticia_titulo" />
+
+    <EditText
+        android:id="@+id/noticia_subtitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/txt_noticia_subtitulo"
+        android:textSize="@dimen/dimens_noticia_subtitulo"
+        android:layout_below="@id/noticia_titulo"/>
+
+    <EditText
+        android:id="@+id/noticia_autor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/txt_noticia_autor"
+        android:textSize="@dimen/dimens_noticia_autor"
+        android:layout_below="@id/noticia_subtitulo"
+        android:layout_alignParentRight="true"/>
+
+    <EditText
+        android:id="@+id/noticia_corpo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/noticia_foto"
+        android:layout_below="@id/noticia_autor"
+        android:hint="@string/txt_noticia_corpo"
+        android:textSize="@dimen/dimens_noticia_corpo"
+        android:gravity="clip_vertical"/>
+
+    <ImageView
+        android:id="@+id/noticia_foto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_foreground"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignParentBottom="true" />
+
+    <EditText
+        android:id="@+id/noticia_nomecontato1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/txt_noticia_nomecontato"
+        android:textSize="@dimen/dimens_noticia_nomecontato"
+        android:layout_below="@id/noticia_corpo"
+        android:layout_toRightOf="@id/noticia_foto" />
+
+    <EditText
+        android:id="@+id/noticia_nomecontato2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/txt_noticia_nomecontato"
+        android:textSize="@dimen/dimens_noticia_nomecontato"
+        android:layout_below="@id/noticia_nomecontato1"
+        android:layout_toRightOf="@id/noticia_foto" />
+
+    <EditText
+        android:id="@+id/noticia_nomecontato3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/txt_noticia_nomecontato"
+        android:textSize="@dimen/dimens_noticia_nomecontato"
+        android:layout_below="@id/noticia_nomecontato2"
+        android:layout_toRightOf="@id/noticia_foto" />
+
+    <EditText
+        android:id="@+id/noticia_emailcontato1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txt_noticia_emailcontato"
+        android:textSize="@dimen/dimens_noticia_emailcontato"
+        android:layout_below="@id/noticia_corpo"
+        android:layout_toRightOf="@id/noticia_nomecontato1"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/noticia_emailcontato2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txt_noticia_emailcontato"
+        android:textSize="@dimen/dimens_noticia_emailcontato"
+        android:layout_below="@id/noticia_emailcontato1"
+        android:layout_toRightOf="@id/noticia_nomecontato2"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/noticia_emailcontato3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txt_noticia_emailcontato"
+        android:textSize="@dimen/dimens_noticia_emailcontato"
+        android:layout_below="@id/noticia_emailcontato2"
+        android:layout_toRightOf="@id/noticia_nomecontato3"
+        android:inputType="textEmailAddress" />
+
+</RelativeLayout>

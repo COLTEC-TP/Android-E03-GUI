@@ -2,4 +2,11 @@
     <string name="app_name">E03 - Layout</string>
     <string name="txt_main">Aula de PA</string>
     <string name="txt_splash">Splash Screen</string>
+    <string name="txt_noticia_titulo">Título</string>
+    <string name="txt_noticia_subtitulo">Subtítulo</string>
+    <string name="txt_noticia_autor">Autor</string>
+    <string name="txt_noticia_corpo">Corpo</string>
+    <string name="txt_noticia_horario">Horário de postagem</string>
+    <string name="txt_noticia_nomecontato">Contato do autor</string>
+    <string name="txt_noticia_emailcontato">Email do contato</string>
 </resources>

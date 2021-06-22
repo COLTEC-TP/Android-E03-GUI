@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimens_noticia_titulo">40dp</dimen>
+    <dimen name="dimens_noticia_subtitulo">25dp</dimen>
+    <dimen name="dimens_noticia_autor">18dp</dimen>
+    <dimen name="dimens_noticia_corpo">13dp</dimen>
+    <dimen name="dimens_noticia_nomecontato">10dp</dimen>
+    <dimen name="dimens_noticia_emailcontato">10dp</dimen>
+</resources>
