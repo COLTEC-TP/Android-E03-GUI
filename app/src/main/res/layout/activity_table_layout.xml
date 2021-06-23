@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TableLayout"
+    android:background="@drawable/weather">
+
+    <TableRow>
+        <TextView
+            android:text="@string/forecast"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginVertical="50dp"
+        />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:text="9:00"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-10dp"
+            android:layout_marginRight="30dp"
+            android:text="10:00"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="11:00"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-10dp"
+            android:layout_marginRight="20dp"
+            android:text="12:00"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="-25dp"
+            android:text="13:00"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp" />
+
+
+    </TableRow>
+
+    <TableRow >
+        <ImageView
+            android:layout_width="@dimen/icons"
+            android:layout_height="@dimen/icons"
+            android:src="@drawable/clouds"
+            android:layout_marginLeft="5dp"/>
+        <ImageView
+            android:layout_width="@dimen/icons"
+            android:layout_height="@dimen/icons"
+            android:src="@drawable/clouds"
+            android:layout_marginLeft="-40dp"/>
+        <ImageView
+            android:layout_width="@dimen/icons"
+            android:layout_height="@dimen/icons"
+            android:src="@drawable/cloudy"
+            android:layout_marginLeft="-35dp"/>
+        <ImageView
+            android:layout_width="@dimen/icons"
+            android:layout_height="@dimen/icons"
+            android:src="@drawable/cloudy"
+            android:layout_marginLeft="-55dp"/>
+        <ImageView
+            android:layout_width="@dimen/icons"
+            android:layout_height="@dimen/icons"
+            android:src="@drawable/sun"
+            android:layout_marginLeft="-45dp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="25dp">
+        <TextView
+            android:text="@string/thursday"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"/>
+        <ImageView
+            android:src="@drawable/cloudy"
+            android:layout_height="@dimen/icons"
+            android:layout_width="@dimen/icons"/>
+        <TextView
+            android:text="68º"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginLeft="50dp"/>
+        <TextView
+            android:text="59º"
+            android:textColor="#1E90FF"
+            android:textSize="20dp"
+            android:layout_marginLeft="50dp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="25dp">
+        <TextView
+            android:text="@string/friday"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"/>
+        <ImageView
+            android:src="@drawable/raining2"
+            android:layout_height="@dimen/icons"
+            android:layout_width="@dimen/icons"/>
+        <TextView
+            android:text="68º"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginLeft="50dp"/>
+        <TextView
+            android:text="60º"
+            android:textColor="#1E90FF"
+            android:textSize="20dp"
+            android:layout_marginLeft="50dp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="25dp">
+        <TextView
+            android:text="@string/saturday"
+            android:textColor="#1E90FF"
+            android:textSize="20dp"/>
+        <ImageView
+            android:src="@drawable/cloudy"
+            android:layout_height="@dimen/icons"
+            android:layout_width="@dimen/icons"/>
+        <TextView
+            android:text="78º"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginLeft="50dp"/>
+        <TextView
+            android:text="57º"
+            android:textColor="#1E90FF"
+            android:textSize="20dp"
+            android:layout_marginLeft="50dp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="25dp">
+        <TextView
+            android:text="@string/sunday"
+            android:textColor="#1E90FF"
+            android:textSize="20dp"/>
+        <ImageView
+            android:src="@drawable/sun"
+            android:layout_height="@dimen/icons"
+            android:layout_width="@dimen/icons"/>
+        <TextView
+            android:text="81º"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginLeft="50dp"/>
+        <TextView
+            android:text="61º"
+            android:textColor="#1E90FF"
+            android:textSize="20dp"
+            android:layout_marginLeft="50dp"/>
+    </TableRow>
+</TableLayout>
