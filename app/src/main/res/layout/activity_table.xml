@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TableActivity">
+
+    <TableRow>
+
+
+        <ImageView
+            android:id="@+id/btnMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:layout_marginTop="8dp"
+            app:srcCompat="@drawable/menu_icon" />
+
+        <TableLayout android:layout_weight="1">
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txtCity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="4dp"
+                    android:layout_marginVertical="8dp"
+                    android:text="Belo Horizonte"
+                    android:textAlignment="center"
+                    android:textSize="24dp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txtHour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="4dp"
+                    android:layout_marginVertical="10dp"
+                    android:text="15:30"
+                    android:textAlignment="center" />
+            </TableRow>
+
+        </TableLayout>
+
+        <ImageView
+            android:id="@+id/btnPlus"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_span="2"
+            app:srcCompat="@android:drawable/ic_menu_add"
+            android:layout_weight="1"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/txtForecast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_span="4"
+            android:text="Previsão do tempo"
+            android:textSize="18dp" />
+    </TableRow>
+
+    <TableRow android:layout_marginVertical="10dp">
+        <TextView
+            android:id="@+id/txtDay1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="4dp"
+            android:text="Quinta-Feira"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/weather1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:src="@drawable/ic_day_clear" />
+
+        <TextView
+            android:id="@+id/txtTempMax1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="4dp"
+            android:layout_weight="1"
+            android:text="31º"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/txtTempMin1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="4dp"
+            android:layout_weight="1"
+            android:text="18º"
+            android:textSize="18dp" />
+    </TableRow>
+
+    <TableRow android:layout_marginVertical="10dp">
+        <TextView
+            android:id="@+id/txtDay2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="4dp"
+            android:text="Sexta-Feira"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/weather2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:src="@drawable/ic_day_rain" />
+
+        <TextView
+            android:id="@+id/txtTempMax2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="4dp"
+            android:layout_weight="1"
+            android:text="30º"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/txtTempMin2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="4dp"
+            android:layout_weight="1"
+            android:text="20º"
+            android:textSize="18dp" />
+    </TableRow>
+
+    <TableRow android:layout_marginVertical="10dp">
+        <TextView
+            android:id="@+id/txtDay3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="4dp"
+            android:text="Sábado"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/weather3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:src="@drawable/ic_rain_thunder" />
+
+        <TextView
+            android:id="@+id/txtTempMax3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="4dp"
+            android:layout_weight="1"
+            android:text="27º"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/txtTempMin3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="4dp"
+            android:layout_weight="1"
+            android:text="15º"
+            android:textSize="18dp" />
+    </TableRow>
+
+    <TableRow android:layout_marginVertical="10dp">
+        <TextView
+            android:id="@+id/txtDay4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="4dp"
+            android:text="Domingo"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/weather4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:src="@drawable/ic_cloudy" />
+
+        <TextView
+            android:id="@+id/txtTempMax4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="4dp"
+            android:layout_weight="1"
+            android:text="28º"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/txtTempMin4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="4dp"
+            android:layout_weight="1"
+            android:text="21º"
+            android:textSize="18dp" />
+    </TableRow>
+
+    <TableRow android:layout_marginVertical="10dp">
+        <TextView
+            android:id="@+id/txtDay5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="4dp"
+            android:text="Segunda-Feira"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/weather5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:src="@drawable/ic_day_clear" />
+
+        <TextView
+            android:id="@+id/txtTempMax5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="4dp"
+            android:layout_weight="1"
+            android:text="25º"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/txtTempMin5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="4dp"
+            android:layout_weight="1"
+            android:text="15º"
+            android:textSize="18dp" />
+    </TableRow>
+
+    <TableRow android:layout_marginVertical="10dp">
+        <TextView
+            android:id="@+id/txtDay6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="4dp"
+            android:text="Terça-Feira"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/weather6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:src="@drawable/ic_day_partial_cloud" />
+
+        <TextView
+            android:id="@+id/txtTempMax6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="4dp"
+            android:layout_weight="1"
+            android:text="26º"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/txtTempMin6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="4dp"
+            android:layout_weight="1"
+            android:text="18º"
+            android:textSize="18dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="11dp"
+        android:layout_marginVertical="10dp">
+
+        <TextView
+            android:id="@+id/txtDay7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="4dp"
+            android:text="Quarta-Feira"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/weather7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:src="@drawable/ic_cloudy" />
+
+        <TextView
+            android:id="@+id/txtTempMax7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="4dp"
+            android:layout_weight="1"
+            android:text="29º"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/txtTempMin7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="4dp"
+            android:layout_weight="1"
+            android:text="20º"
+            android:textSize="18dp" />
+    </TableRow>
+
+</TableLayout>
