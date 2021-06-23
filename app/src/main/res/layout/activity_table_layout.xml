@@ -9,7 +9,7 @@
 
     <TableRow>
         <TextView
-            android:text="Forecast"
+            android:text="@string/forecast"
             android:textColor="#FFFFFF"
             android:textSize="20dp"
             android:layout_marginLeft="50dp"
@@ -98,7 +98,7 @@
         android:layout_marginTop="50dp"
         android:layout_marginLeft="25dp">
         <TextView
-            android:text="Thursday"
+            android:text="@string/thursday"
             android:textColor="#FFFFFF"
             android:textSize="20dp"/>
         <ImageView
@@ -121,7 +121,7 @@
         android:layout_marginTop="50dp"
         android:layout_marginLeft="25dp">
         <TextView
-            android:text="Friday"
+            android:text="@string/friday"
             android:textColor="#FFFFFF"
             android:textSize="20dp"/>
         <ImageView
@@ -144,7 +144,7 @@
         android:layout_marginTop="50dp"
         android:layout_marginLeft="25dp">
         <TextView
-            android:text="Saturday"
+            android:text="@string/saturday"
             android:textColor="#1E90FF"
             android:textSize="20dp"/>
         <ImageView
@@ -167,7 +167,7 @@
         android:layout_marginTop="50dp"
         android:layout_marginLeft="25dp">
         <TextView
-            android:text="Sunday"
+            android:text="@string/sunday"
             android:textColor="#1E90FF"
             android:textSize="20dp"/>
         <ImageView

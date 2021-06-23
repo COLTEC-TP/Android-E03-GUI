@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">E03 - Layout</string>
+    <string name="forecast">Forecast</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="form">Form</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="commentary">Comentary</string>
+    <string name="classification">Classification</string>
+    <string name="send">SEND</string>
+</resources>

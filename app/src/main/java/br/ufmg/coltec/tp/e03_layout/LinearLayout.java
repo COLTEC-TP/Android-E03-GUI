@@ -38,6 +38,5 @@ public class LinearLayout extends Activity {
         buttonSend.setOnClickListener(view -> {
             dialog.show();
         });
-
     }
 }
