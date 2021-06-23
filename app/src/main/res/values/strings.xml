@@ -1,3 +1,36 @@
 <resources>
     <string name="app_name">E03 - Layout</string>
+    <string name="noticia">Notícia</string>
+    <string name="previsao_tempo">Previsão do Tempo</string>
+    <string name="formulario">Formulário</string>
+    <string name="enviar">Enviar</string>
+    <string name="nome">Nome</string>
+    <string name="email">e-mail</string>
+    <string name="comentario">Comentário</string>
+    <string name="nota">Nota</string>
+    <string name="titulo_noticia">Dólar fecha em queda e cai ao menor patamar em mais de um ano</string>
+    <string name="subtitulo_noticia">Nesta segunda-feira, moeda norte-americana recuou 0,92%, cotada a R$ 5,0222.</string>
+    <string name="autor_nome">G1</string>
+    <string name="texto_noticia">O dólar fechou em queda nesta segunda-feira (21), refletindo a fraqueza da divisa norte-americana no exterior e a percepção de um cenário doméstico mais favorável para investimentos. A moeda norte-americana recuou 0,92%, cotada a R$ 5,0222. É o menor patamar de fechamento desde 10 junho de 2020 (R$ 4,9334).</string>
+    <string name="hora_postagem">21/06/2021 09h02</string>
+    <string name="email_autor">g1.globo.com</string>
+    <string name="dialog_texto">Deseja enviar?</string>
+    <string name="dialog_titulo">Confirmação</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="enviado">Enviado!</string>
+    <string name="cancelado">Cancelado</string>
+    <string name="dia">Dia</string>
+    <string name="minima">Mínima</string>
+    <string name="maxima">Máxima</string>
+    <string name="segunda">Segunda</string>
+    <string name="temperatura_minima">20º</string>
+    <string name="temperatura_maxima">30º</string>
+    <string name="domingo">Domingo</string>
+    <string name="terca">Terça</string>
+    <string name="quarta">Quarta</string>
+    <string name="quinta">Quinta</string>
+    <string name="sexta">Sexta</string>
+    <string name="sabado">Sábado</string>
+    <string name="previsao_dia">Previsão do dia:</string>
 </resources>
