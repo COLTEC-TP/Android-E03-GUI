@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeLayout">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Título da notícia"
+        android:textSize="40dp"
+        android:id="@+id/title"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/title"
+        android:text="Subtítulo da notícia"
+        android:textSize="25dp"
+        android:id="@+id/subtitle" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/subtitle"
+        android:text="Nome do autor: "
+        android:textSize="15dp"
+        android:layout_marginTop="@dimen/default_padding"
+        android:layout_marginRight="@dimen/default_padding"
+        android:id="@+id/author_name" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/author_name"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor condimentum lacinia quis vel eros donec ac. Arcu odio ut sem nulla pharetra diam sit amet nisl."
+        android:textSize="20dp"
+        android:layout_marginTop="@dimen/default_padding"
+        android:layout_marginHorizontal="50dp"
+        android:id="@+id/body" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/body"
+        android:text="hh:mm:ss"
+        android:textSize="15dp"
+        android:layout_marginTop="@dimen/default_padding"
+        android:layout_marginRight="@dimen/default_padding"
+        android:id="@+id/hour" />
+
+    <ImageView
+        android:id="@+id/author_image"
+        android:layout_width="124dp"
+        android:layout_height="164dp"
+        android:layout_below="@+id/hour"
+        android:layout_marginHorizontal="@dimen/default_padding"
+        android:layout_marginTop="@dimen/default_padding"
+        android:src="@drawable/author" />
+
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/author_image"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="Marcelo Simim - 2020955118@teiacoltec.org"
+        android:textSize="15dp" />
+
+
+</RelativeLayout>
