@@ -44,4 +44,12 @@
     <string name="txt_btn_noticia_main">clique para ver a notícia</string>
     <string name="txt_btn_previsao_main">clique para ver a previsão do tempo</string>
     <string name="txt_btn_splash_main">clique para ver a splash screen</string>
+    <string name="txt_btn_dialog">Enviar comentários</string>
+    <string name="txt_hint_edittext_dialog">Digite aqui seus comentários</string>
+    <string name="txt_dialog_titulo">Enviar comentários</string>
+    <string name="txt_dialog_mensagem">Você realmente deseja enviar os comentários?</string>
+    <string name="txt_dialog_btn_positivo">Enviar</string>
+    <string name="txt_dialog_btn_negativo">Não enviar</string>
+    <string name="txt_dialog_msg_positivo">Comentários enviados com sucesso!</string>
+    <string name="txt_dialog_msg_negativo">Comentários NÂO enviados!</string>
 </resources>

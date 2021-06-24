@@ -15,5 +15,6 @@
     <dimen name="dimens_linear_txt">20dp</dimen>
     <dimen name="dimens_txt_btn_main">16dp</dimen>
     <dimen name="dimens_paddingtop_main">120dp</dimen>
+    <dimen name="dimens_txt_dialogs">25dp</dimen>
 
 </resources>
