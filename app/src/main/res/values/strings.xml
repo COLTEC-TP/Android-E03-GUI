@@ -51,5 +51,6 @@
     <string name="txt_dialog_btn_positivo">Enviar</string>
     <string name="txt_dialog_btn_negativo">Não enviar</string>
     <string name="txt_dialog_msg_positivo">Comentários enviados com sucesso!</string>
-    <string name="txt_dialog_msg_negativo">Comentários NÂO enviados!</string>
+    <string name="txt_dialog_msg_negativo">Comentários NÂO foram enviados!</string>
+    <string name="txt_btn_comentarios">clique para ver os comentários</string>
 </resources>

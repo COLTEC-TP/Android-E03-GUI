@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txt_dia1">Day 1</string>
+    <string name="txt_dia2">Day 2</string>
+    <string name="txt_dia3">Day 3</string>
+    <string name="txt_dia4">Day 4</string>
+    <string name="txt_dia5">Day 5</string>
+    <string name="txt_previsao">Forecast</string>
+    <string name="txt_hora1">Hour 1</string>
+    <string name="txt_hora2">Hour 2</string>
+    <string name="txt_hora3">Hour 3</string>
+    <string name="txt_hora4">Hour 4</string>
+    <string name="txt_hora5">Hour 5</string>
+    <string name="txt_hora6">Hour 6</string>
+    <string name="txt_horas">Hours</string>
+    <string name="txt_graus">ºC</string>
+    <string name="txt_detalhes">Details</string>
+    <string name="txt_sensacao">Feels like</string>
+    <string name="txt_humidade">Humidity</string>
+    <string name="txt_visibilidade">Visibility</string>
+    <string name="txt_indiceuv">UV index</string>
+    <string name="sbl_humidade">%</string>
+    <string name="sbl_visibilidade">mi</string>
+    <string name="sbl_indiceuv">Low</string>
+    <string name="txt_indice">5d | 10d</string>
+    <string name="txt_cidade">City</string>
+    <string name="txt_btn">Btn</string>
+    <string name="txt_btn_previsao_main">click to see the weather</string>
+    <string name="txt_btn_comentarios">click to see the comments</string>
+    <string name="txt_btn_dialog">Send comments</string>
+    <string name="txt_hint_edittext_dialog">Enter here your comments </string>
+    <string name="txt_dialog_titulo">Send comments</string>
+    <string name="txt_dialog_mensagem">Do you really want to send the comments?</string>
+    <string name="txt_dialog_btn_positivo">Send</string>
+    <string name="txt_dialog_btn_negativo">Do not send</string>
+    <string name="txt_dialog_msg_positivo">Comments submitted successfully!</string>
+    <string name="txt_dialog_msg_negativo">Comments were NOT sent!</string>
+
+</resources>
