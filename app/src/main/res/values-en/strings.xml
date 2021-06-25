@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">E03 - Layout</string>
+    <string name="noticia">Notice</string>
+    <string name="previsao_tempo">Forecast Weather</string>
+    <string name="formulario">Form</string>
+    <string name="enviar">Send</string>
+    <string name="nome">Name</string>
+    <string name="email">e-mail</string>
+    <string name="comentario">Comment</string>
+    <string name="nota">Note</string>
+    <string name="titulo_noticia">Dollar closes falling and falls to the smallest level in more than a year</string>
+    <string name="subtitulo_noticia">This Monday, North American currency retreated 0.92%, quoted at R $ 5,0222.</string>
+    <string name="autor_nome">G1</string>
+    <string name="texto_noticia">The dollar closed falling on Monday (21), reflecting the weakness of the American currency abroad and the perception of a more favorable domestic scenario for investments. The US currency retreated 0.92%, quoted at R $ 5,0222. It is the smallest level of closing since June 10, 2020 (R $ 4,9334).</string>
+    <string name="hora_postagem">21/06/2021 09h02</string>
+    <string name="email_autor">g1.globo.com</string>
+    <string name="dialog_texto">Do you want to send?</string>
+    <string name="dialog_titulo">Confirm</string>
+    <string name="sim">Yes</string>
+    <string name="nao">No</string>
+    <string name="enviado">Sent!</string>
+    <string name="cancelado">Cancelled!</string>
+    <string name="dia">Day</string>
+    <string name="minima">Min</string>
+    <string name="maxima">Max</string>
+    <string name="segunda">Monday</string>
+    <string name="temperatura_minima">20º</string>
+    <string name="temperatura_maxima">30º</string>
+    <string name="domingo">Sunday</string>
+    <string name="terca">Tuesday</string>
+    <string name="quarta">Wednesday</string>
+    <string name="quinta">Thursday</string>
+    <string name="sexta">Friday</string>
+    <string name="sabado">Saturday</string>
+    <string name="previsao_dia">Forecast day:</string>
+</resources>
