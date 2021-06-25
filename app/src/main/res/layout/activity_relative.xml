@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeActivity"
+    android:isScrollContainer="true">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:layout_centerHorizontal="true"
+        android:text="Lorem ipsum hendrerit. "
+        android:textAlignment="center"
+        android:textSize="32dp"/>
+
+    <TextView
+        android:id="@+id/subtitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titulo"
+        android:layout_marginTop="4dp"
+        android:layout_centerHorizontal="true"
+        android:text="Varius neque aenean nullam, fusce"
+        android:textAlignment="center"
+        android:textSize="24dp"/>
+
+    <TextView
+        android:id="@+id/autor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subtitulo"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="8dp"
+        android:layout_alignParentEnd="true"
+        android:text="José Autor da Costa"
+        android:textAlignment="center"
+        android:textSize="12dp"/>
+
+    <TextView
+        android:id="@+id/noticia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/autor"
+        android:layout_marginTop="32dp"
+        android:layout_marginHorizontal="8dp"
+        android:layout_alignParentEnd="true"
+        android:text="Lorem ipsum quisque adipiscing dictum convallis placerat luctus cubilia bibendum condimentum sollicitudin porttitor, luctus elit lacus quam consequat arcu ullamcorper habitant consectetur aliquam velit. quam pulvinar euismod mattis nisl orci non auctor dictumst id, dictum pellentesque arcu imperdiet himenaeos venenatis dictumst suspendisse integer, torquent consequat egestas tortor quam est curae in. ligula vivamus habitant in, fermentum rutrum sem, pellentesque etiam. "
+        android:textAlignment="viewStart"
+
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/noticia"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_alignParentEnd="true"
+        android:text="31/02/2022 às 0:00"
+        android:textAlignment="center"
+        android:textSize="12dp"/>
+
+    <ImageView
+        android:id="@+id/foto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/data"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        app:srcCompat="@android:mipmap/sym_def_app_icon" />
+
+    <TextView
+        android:id="@+id/contatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/data"
+        android:layout_toEndOf="@id/foto"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_alignBottom="@id/foto"
+        android:layout_alignParentEnd="true"
+        android:text="José Autor da Costa jose@email.com"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="12dp"/>
+
+
+</RelativeLayout>
