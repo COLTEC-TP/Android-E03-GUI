@@ -10,19 +10,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Formulário de cadastro"
+        android:text="@string/txt_Form"
         android:textSize="24dp"
         android:textAlignment="center"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nome"
+        android:text="@string/txt_Name"
         android:textSize="18dp"
         android:layout_margin="5dp"
         android:paddingTop="20dp"/>
 
     <EditText
+        android:id="@+id/edtName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="text"/>
@@ -30,11 +31,12 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="E-mail"
+        android:text="@string/txt_Email"
         android:textSize="18dp"
         android:layout_margin="5dp"/>
 
     <EditText
+        android:id="@+id/edtEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"/>
@@ -43,10 +45,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:text="Comentários"
+        android:text="@string/txt_Coment"
         android:textSize="18dp"/>
 
     <EditText
+        android:id="@+id/edtComent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
@@ -56,10 +59,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:text="Nota"
+        android:text="@string/txt_Score"
         android:textSize="18dp"/>
 
         <RadioGroup
+            android:id="@+id/rgNote"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
@@ -98,10 +102,12 @@
         </RadioGroup>
 
     <Button
+        android:id="@+id/btnSend"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:text="Enviar"
-        android:layout_gravity="right" />
+        android:text="@string/btn_Send"
+        android:layout_gravity="right"
+        android:onClick="send"/>
 
 </LinearLayout>

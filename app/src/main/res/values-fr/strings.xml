@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">E03 - Layout</string>
+    <string name="txt_Coment">Commenter</string>
+    <string name="txt_Name">Nom</string>
+    <string name="txt_Form">Formulaire d\'inscription</string>
+    <string name="dlg_Message">Voulez-vous vraiment soumettre cet avis ?</string>
+    <string name="dlg_Positive">Ouais</string>
+    <string name="dlg_Negative">Non</string>
+    <string name="txt_Positive">Évaluation envoyée avec succès!</string>
+    <string name="txt_Negative">L\'avis n\'a pas été envoyé</string>
+    <string name="txt_Score">Note</string>
+    <string name="btn_Send">Envoyer</string>
+    <string name="dlg_Title">Confirmation</string>
+</resources>

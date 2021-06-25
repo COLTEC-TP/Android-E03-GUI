@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">E03 - Layout</string>
+    <string name="txt_Coment">Coment</string>
+    <string name="txt_Name">Name</string>
+    <string name="txt_Form">Registration form</string>
+    <string name="dlg_Message">Do you really want to submit this review?</string>
+    <string name="txt_Positive">Review sent successfully!</string>
+    <string name="dlg_Negative">No</string>
+    <string name="dlg_Positive">Yes</string>
+    <string name="txt_Score">Score</string>
+    <string name="btn_Send">Send</string>
+    <string name="dlg_Title">Confirmation</string>
+    <string name="txt_Negative">The review was not send</string>
+</resources>

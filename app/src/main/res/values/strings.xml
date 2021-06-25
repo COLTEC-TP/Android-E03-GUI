@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">E03 - Layout</string>
+    <string name="txt_Name">Nome</string>
+    <string name="txt_Email" translatable="false">E-mail</string>
+    <string name="txt_Coment">Comentário</string>
+    <string name="txt_Score">Nota</string>
+    <string name="txt_Form">Formulário de cadastro</string>
+    <string name="dlg_Message">Deseja realmente submeter essa avaliação?</string>
+    <string name="dlg_Positive">Sim</string>
+    <string name="dlg_Negative">Não</string>
+    <string name="txt_Positive">Avaliação enviada com sucesso!</string>
+    <string name="txt_Negative">A avaliação não foi enviada</string>
+    <string name="btn_Send">Enviar</string>
+    <string name="dlg_Title">Confirmação</string>
 </resources>
