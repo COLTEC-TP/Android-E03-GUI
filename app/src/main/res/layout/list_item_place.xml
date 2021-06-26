@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="10dp">
+    android:layout_margin="10dp"
+    android:id="@+id/list_item_place">
 
     <ImageView
         android:layout_width="wrap_content"
@@ -48,4 +49,5 @@
         android:layout_alignBottom="@id/img_place_photo"
         android:id="@+id/txt_place_distance"
         android:text="0.4 KM" />
+
 </RelativeLayout>
