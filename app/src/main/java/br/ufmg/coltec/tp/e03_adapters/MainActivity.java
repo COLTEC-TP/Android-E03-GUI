@@ -12,6 +12,6 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         ListView placesListView = findViewById(R.id.list_item_place);
-        placesListView.setAdapter(new Place.PlaceAdapter(this));
+        placesListView.setAdapter(new PlaceAdapter(this.getBaseContext()));
     }
 }
