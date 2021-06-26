@@ -5,6 +5,7 @@
     android:stretchColumns="1">
     <TableRow>
         <TextView
+            android:id="@+id/forecast"
             android:text="Forecast"
             android:textSize="30dp"
             android:textColor="#000000"

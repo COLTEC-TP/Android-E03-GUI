@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">E03 - Layout</string>
+    <!--WeatherActivity-->
+    <string name="forecast_english">Forecast</string>
+    <string name="thursday_english">Thursday</string>
+    <string name="friday_english">Friday</string>
+
+    <!--FormActivity-->
+    <string name="email_english">Email</string>
+    <string name="password_english">Password</string>
+    <string name="comment_english">Comment</string>
+    <string name="submit_button_english">Submit</string>
+</resources>
