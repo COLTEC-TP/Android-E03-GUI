@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">E03 - Layout</string>
+    <!--WeatherActivity-->
+    <string name="forecast_portuguese">Forecast</string>
+    <string name="thursday_portuguese">Quinta-Feira</string>
+    <string name="friday_portuguese">Sexta-Feira</string>
+
+    <!--FormActivity-->
+    <string name="email_english">Email</string>
+    <string name="password_english">Senha</string>
+    <string name="comment_english">Comentário</string>
+    <string name="submit_button_english">Enviar</string>
 </resources>

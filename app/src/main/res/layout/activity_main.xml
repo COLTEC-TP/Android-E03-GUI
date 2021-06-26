@@ -1,18 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="br.ufmg.coltec.tp.e03_layout.MainActivity">
+    tools:context="br.ufmg.coltec.tp.e03_layout.MainActivity"
+    android:orientation="vertical">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Wellcome! Browse the menu:"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:textColor="@color/colorPrimaryDark"/>
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:id="@+id/btn_breaking_news"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin= "20dp"
+        android:text="Breaking News"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:background="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/btn_formt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin= "20dp"
+        android:text="Form"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:background="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/btn_weather_forecast"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin= "20dp"
+        android:text="Weather Forecast"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:background="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin= "20dp"
+        android:text="Start"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:background="@color/colorPrimary"/>
+
+</LinearLayout>
