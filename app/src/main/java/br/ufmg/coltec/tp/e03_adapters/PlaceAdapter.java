@@ -45,17 +45,17 @@ public class PlaceAdapter extends BaseAdapter {
 
         View newView = LayoutInflater.from(this.context).inflate(R.layout.list_item_place, viewGroup, false);
 
-        ImageView photoPlace = newView.findViewById(R.id.img_place_photo);
-        TextView namePlace = newView.findViewById(R.id.img_place_photo);
-        TextView textPlaceName = newView.findViewById(R.id.txt_place_name);
-        RatingBar placeEvaluation = newView.findViewById(R.id.txt_place_name);
-        TextView placeLocation = newView.findViewById(R.id.img_place_photo);
+        ImageView placePhoto = newView.findViewById(R.id.img_place_photo);
+        TextView placeName = newView.findViewById(R.id.txt_place_name);
+        TextView placeDescription = newView.findViewById(R.id.txt_place_description);
+        RatingBar placeEvaluation = newView.findViewById(R.id.place_evaluation);
+        TextView placeDistance = newView.findViewById(R.id.txt_place_distance);
 
-        photoPlace.setImageResource(place.getPhotoId());
-        namePlace.setText(place.getName());
-        textPlaceName.setText(place.getName());
+        placePhoto.setImageResource(place.getPhotoId());
+        placeName.setText(place.getName());
+        placeDescription.setText(place.getName());
         placeEvaluation.setRating(place.getRate());
-        placeLocation.setText(place.getDistance());
+        placeDistance.setText(place.getDistance());
 
         return newView;
     }
