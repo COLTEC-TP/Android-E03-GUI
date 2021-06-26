@@ -20,7 +20,7 @@ public class FormActivity extends Activity {
         btn_breaking_news.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 AlertDialog.Builder alertDialog = new AlertDialog.Builder(FormActivity.this);
-                alertDialog.setPositiveButton("sim",new DialogInterface.OnClickListener() {
+                alertDialog.setPositiveButton("Yes",new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int whichButton){
                                 Intent intent = new Intent(FormActivity.this, FormActivity.class);
                                 startActivity(intent);
