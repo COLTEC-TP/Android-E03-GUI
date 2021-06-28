@@ -6,46 +6,42 @@
     android:layout_margin="10dp">
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/img_place_photo"
-        android:src="@drawable/ic_launcher_background"/>
-
+        style="@style/Layout"
+        android:src="@drawable/ic_launcher_background"
+        android:contentDescription="@string/photo"/>
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_toRightOf="@id/img_place_photo"
+        android:id="@+id/txt_place_name"
+        style="@style/Layout"
+        android:layout_toEndOf="@id/img_place_photo"
         android:layout_marginLeft="15dp"
         android:textSize="20dp"
-        android:id="@+id/txt_place_name"
-        android:text="Um lugar qualquer" />
+        android:text="@string/text" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/txt_place_description"
+        style="@style/Layout"
         android:layout_alignLeft="@id/txt_place_name"
         android:layout_below="@id/txt_place_name"
-        android:id="@+id/txt_place_description"
-        android:text="Este é um lugar qualquer que serve alguma coisa" />
-
+        android:text="@string/text" />
     <RatingBar
+        android:id="@+id/rating_place"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@id/img_place_photo"
         android:layout_alignLeft="@id/txt_place_name"
         android:layout_marginTop="10dp"
-        style="?android:attr/ratingBarStyleSmall"
+        style="@style/RatingBar"
         android:isIndicator="true"
         android:numStars="5"
-        android:rating="3"
+        android:rating="0.0"
         android:stepSize="0.5" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/txt_place_distance"
+        style="@style/Layout"
         android:layout_alignParentRight="true"
         android:layout_alignBottom="@id/img_place_photo"
-        android:id="@+id/txt_place_distance"
-        android:text="0.4 KM" />
+        android:text="@string/text" />
 </RelativeLayout>
