@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">E03 - Adapters</string>
+    <string name="photo">Imagem</string>
+    <string name="text">Sem informação</string>
 </resources>
