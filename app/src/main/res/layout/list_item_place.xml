@@ -9,7 +9,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/img_place_photo"
-        android:src="@drawable/ic_launcher_background"/>
+        android:src="@drawable/ic_launcher_background" />
 
 
     <TextView
@@ -39,7 +39,8 @@
         android:isIndicator="true"
         android:numStars="5"
         android:rating="3"
-        android:stepSize="0.5" />
+        android:stepSize="0.5"
+        android:id="@+id/rtg_bar_rate"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -47,5 +48,6 @@
         android:layout_alignParentRight="true"
         android:layout_alignBottom="@id/img_place_photo"
         android:id="@+id/txt_place_distance"
-        android:text="0.4 KM" />
+        android:text="4 KM" />
+
 </RelativeLayout>
