@@ -35,7 +35,7 @@
         android:layout_alignBottom="@id/img_place_photo"
         android:layout_alignLeft="@id/txt_place_name"
         android:layout_marginTop="10dp"
-        style="?android:attr/ratingBarStyleSmall"
+        style="android:ratingBarStyle"
         android:isIndicator="true"
         android:numStars="5"
         android:rating="3"
