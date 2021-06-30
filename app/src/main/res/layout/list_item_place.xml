@@ -32,20 +32,19 @@
     <RatingBar
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@id/img_place_photo"
-        android:layout_alignLeft="@id/txt_place_name"
+        android:layout_below="@+id/img_place_photo"
         android:layout_marginTop="10dp"
         style="?android:attr/ratingBarStyleSmall"
         android:isIndicator="true"
         android:numStars="5"
         android:rating="3"
-        android:stepSize="0.5" />
+        android:stepSize="0.5"
+        android:id="@+id/rating"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_alignBottom="@id/img_place_photo"
+        android:layout_below="@id/rating"
         android:id="@+id/txt_place_distance"
         android:text="0.4 KM" />
 </RelativeLayout>
