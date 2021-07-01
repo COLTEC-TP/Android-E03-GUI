@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/E03-GUI.iml" filepath="$PROJECT_DIR$/.idea/modules/E03-GUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/E03-GUI.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/E03-GUI.app.iml" />
+    </modules>
+  </component>
+</project>

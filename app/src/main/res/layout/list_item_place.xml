@@ -30,6 +30,7 @@
         android:text="Este é um lugar qualquer que serve alguma coisa" />
 
     <RatingBar
+        android:id="@+id/rating"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@id/img_place_photo"
